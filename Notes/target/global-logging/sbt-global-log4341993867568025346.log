@@ -1,0 +1,88 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[info] Updated file C:\Users\pdcdi\Documents\Scala\Notes\project\build.properties: set sbt.version to 1.6.2
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.6.2 (Oracle Corporation Java 1.8.0_333)
+[debug] Load.defaultLoad until apply took 3139.9046ms
+[debug]                 Load.loadUnit: plugins took 212.358ms
+[debug]                 Load.loadUnit: defsScala took 0.461ms
+[debug] [Loading] Scanning directory C:\Users\pdcdi\Documents\Scala\Notes\project\project
+[debug]                   Load.loadUnit: mkEval took 21.4374ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\pdcdi\Documents\Scala\Notes\project\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 41.6044 ms
+[info] loading settings for project notes-build-build from metals.sbt ...
+[debug]                     Load.resolveProject(notes-build-build) took 148.676ms
+[debug]                   Load.loadTransitive: finalizeProject(Project(id notes-build-build, base: C:\Users\pdcdi\Documents\Scala\Notes\project\project, plugins: List(<none>))) took 216.0037ms
+[debug] [Loading] Done in C:\Users\pdcdi\Documents\Scala\Notes\project\project, returning: (notes-build-build)
+[debug]                 Load.loadUnit: loadedProjectsRaw took 5616.3291ms
+[debug]                 Load.loadUnit: cleanEvalClasses took 20.0587ms
+[debug]               Load.loadUnit(file:/C:/Users/pdcdi/Documents/Scala/Notes/project/project/, ...) took 5863.0755ms
+[debug]             Load.apply: load took 6354.9183ms
+[debug]             Load.apply: resolveProjects took 16.9823ms
+[debug]             Load.apply: finalTransforms took 414.6463ms
+[debug]             Load.apply: config.delegates took 20.344ms
+[debug]             Load.apply: Def.make(settings)... took 2230.3309ms
+[debug]             Load.apply: structureIndex took 223.6662ms
+[debug]             Load.apply: mkStreams took 3.2114ms
+[info] loading project definition from C:\Users\pdcdi\Documents\Scala\Notes\project\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]           Load.loadUnit: plugins took 27888.8757ms
+[debug]           Load.loadUnit: defsScala took 0.0116ms
+[debug] [Loading] Scanning directory C:\Users\pdcdi\Documents\Scala\Notes\project
+[debug]             Load.loadUnit: mkEval took 2.2215ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\pdcdi\Documents\Scala\Notes\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 8.7386 ms
+[info] loading settings for project notes-build from metals.sbt ...
+[debug]               Load.resolveProject(notes-build) took 64.474ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id notes-build, base: C:\Users\pdcdi\Documents\Scala\Notes\project, plugins: List(<none>))) took 74.8641ms
+[debug] [Loading] Done in C:\Users\pdcdi\Documents\Scala\Notes\project, returning: (notes-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 2002.092ms
+[debug]           Load.loadUnit: cleanEvalClasses took 4.6076ms
+[debug]         Load.loadUnit(file:/C:/Users/pdcdi/Documents/Scala/Notes/project/, ...) took 29898.6179ms
+[debug]       Load.apply: load took 29902.2735ms
+[debug]       Load.apply: resolveProjects took 0.1395ms
+[debug]       Load.apply: finalTransforms took 38.3761ms
+[debug]       Load.apply: config.delegates took 0.9639ms
+[debug]       Load.apply: Def.make(settings)... took 286.8455ms
+[debug]       Load.apply: structureIndex took 67.1621ms
+[debug]       Load.apply: mkStreams took 0.0174ms
+[info] loading project definition from C:\Users\pdcdi\Documents\Scala\Notes\project
+[debug] Evaluating tasks: bloopInstall
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true

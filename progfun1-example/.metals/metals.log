@@ -1,0 +1,250 @@
+2022.06.27 17:48:11 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\pdcdi\Documents\Scala\progfun1-example\.metals\lsp.trace.json or C:\Users\pdcdi\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.06.27 17:48:12 INFO  logging to file C:\Users\pdcdi\Documents\Scala\progfun1-example\.metals\metals.log
+2022.06.27 17:48:12 INFO  Started: Metals version 0.11.6 in workspace 'C:\Users\pdcdi\Documents\Scala\progfun1-example' for client Visual Studio Code 1.68.1.
+2022.06.27 17:48:12 WARN  Can't instantiate JavaInteractiveSemanticdb (version: Some(JdkVersion(8)), jdkHome: C:\Program Files\Java\jre1.8.0_333, javac exists: false)
+2022.06.27 17:48:12 INFO  time: initialize in 0.24s
+2022.06.27 17:48:12 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.27 17:48:13 WARN  Build server is not auto-connectable.
+2022.06.27 17:48:14 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala
+2022.06.27 17:48:18 INFO  no build target found for C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.06.27 17:48:20 INFO  time: code lens generation in 6.3s
+2022.06.27 17:48:20 INFO  time: code lens generation in 1.3s
+2022.06.27 17:49:28 ERROR scalafmt: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala:3: error: [dialect scala213] ; expected but : found
+object Lists:
+            ^
+2022.06.27 17:49:28 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala
+2022.06.27 17:51:11 ERROR scalafmt: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala:3: error: [dialect scala213] ; expected but : found
+object Lists:
+            ^
+2022.06.27 17:51:11 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala
+Jun 27, 2022 5:51:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 44 is not a valid line number, allowed [0..43]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1649)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1648)
+	... 15 more
+
+2022.06.27 17:51:44 ERROR scalafmt: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala:3: error: [dialect scala213] ; expected but : found
+object Lists:
+            ^
+2022.06.27 17:51:44 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala
+Jun 27, 2022 5:55:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 632
+Jun 27, 2022 5:55:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 636
+Jun 27, 2022 5:55:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 699
+2022.06.27 18:01:56 ERROR scalafmt: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala:3: error: [dialect scala213] ; expected but : found
+object Lists:
+            ^
+2022.06.27 18:01:57 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala
+Jun 27, 2022 6:02:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1098
+Jun 27, 2022 6:02:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1097
+Jun 27, 2022 6:02:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1100
+Jun 27, 2022 6:04:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1145
+2022.06.27 18:04:46 ERROR scalafmt: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala:3: error: [dialect scala213] ; expected but : found
+object Lists:
+            ^
+2022.06.27 18:04:46 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala
+Jun 27, 2022 6:05:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1346
+Jun 27, 2022 6:05:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1377
+2022.06.27 18:05:52 ERROR scalafmt: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala:3: error: [dialect scala213] ; expected but : found
+object Lists:
+            ^
+2022.06.27 18:05:52 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala
+2022.06.27 18:12:13 ERROR scalafmt: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala:3: error: [dialect scala213] ; expected but : found
+object Lists:
+            ^
+2022.06.27 18:12:13 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala
+2022.06.27 18:18:08 ERROR scalafmt: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala:3: error: [dialect scala213] ; expected but : found
+object Lists:
+            ^
+2022.06.27 18:18:09 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala
+2022.06.27 18:18:48 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\test\scala\example\ListsSuite.scala
+Jun 27, 2022 6:20:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1481
+2022.06.27 18:20:36 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\main.scala
+2022.06.27 18:20:54 ERROR scalafmt: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\main.scala:3: error: [dialect scala213] expected start of definition
+@main def run(): Unit =
+      ^
+2022.06.27 18:20:54 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\main.scala
+Jun 27, 2022 6:21:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1514
+2022.06.27 18:22:46 ERROR scalafmt: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala:3: error: [dialect scala213] ; expected but : found
+object Lists:
+            ^
+2022.06.27 18:22:46 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala
+2022.06.27 18:23:57 ERROR scalafmt: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala:3: error: [dialect scala213] ; expected but : found
+object Lists:
+            ^
+2022.06.27 18:23:59 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala
+Jun 27, 2022 6:25:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1662
+Jun 27, 2022 6:25:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1678
+Jun 27, 2022 6:25:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1677
+Jun 27, 2022 6:25:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1679
+2022.06.27 18:25:45 INFO  time: code lens generation in 5.57s
+Jun 27, 2022 6:25:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1710
+2022.06.27 18:27:56 ERROR scalafmt: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala:3: error: [dialect scala213] ; expected but : found
+object Lists:
+            ^
+Jun 27, 2022 6:27:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1795
+Jun 27, 2022 6:27:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1797
+Exception in thread "pool-3-thread-1" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	... 3 more
+Jun 27, 2022 6:28:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1798
+Jun 27, 2022 6:28:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1802
+2022.06.27 18:28:00 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala
+Jun 27, 2022 6:44:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1816
+Jun 27, 2022 6:44:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1818
+Jun 27, 2022 6:44:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1820
+2022.06.27 18:44:57 ERROR scalafmt: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala:3: error: [dialect scala213] ; expected but : found
+object Lists:
+            ^
+2022.06.27 18:45:09 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala
+Jun 27, 2022 6:45:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1849
+Jun 27, 2022 6:45:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1851
+Jun 27, 2022 6:45:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1856
+Jun 27, 2022 6:45:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1857
+Jun 27, 2022 6:45:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1862
+2022.06.27 18:47:29 ERROR scalafmt: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala:3: error: [dialect scala213] ; expected but : found
+object Lists:
+            ^
+2022.06.27 18:47:31 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala
+Jun 27, 2022 6:48:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1879
+2022.06.27 18:50:13 ERROR scalafmt: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala:3: error: [dialect scala213] ; expected but : found
+object Lists:
+            ^
+2022.06.27 18:50:13 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala
+Jun 27, 2022 6:50:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1928
+Jun 27, 2022 6:50:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1930
+2022.06.27 18:51:01 ERROR scalafmt: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala:3: error: [dialect scala213] ; expected but : found
+object Lists:
+            ^
+2022.06.27 18:51:02 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala
+2022.06.27 18:51:39 ERROR scalafmt: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala:3: error: [dialect scala213] ; expected but : found
+object Lists:
+            ^
+2022.06.27 18:51:40 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala
+Jun 27, 2022 7:06:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2009
+Jun 27, 2022 7:06:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2004
+Exception in thread "pool-3-thread-2" java.lang.ClassCastException: dotty.tools.dotc.core.Symbols$NoSymbol$ cannot be cast to dotty.tools.dotc.core.Symbols$ClassSymbol
+	at dotty.tools.dotc.core.Symbols$Symbol.asClass(Symbols.scala:180)
+	at dotty.tools.dotc.util.Signatures$.toSignature(Signatures.scala:82)
+	at scala.meta.internal.pc.SignatureHelpProvider$.$anonfun$2(SignatureHelpProvider.scala:56)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:63)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.signatureHelp$$anonfun$1(ScalaPresentationCompiler.scala:235)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2022.06.27 19:06:22 ERROR scalafmt: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala:3: error: [dialect scala213] ; expected but : found
+object Lists:
+            ^
+Jun 27, 2022 7:06:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2023
+2022.06.27 19:06:22 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala
+2022.06.27 19:07:07 INFO  time: code lens generation in 1.3s
+2022.06.27 19:10:27 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\main.scala
+Jun 27, 2022 7:10:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2049
+Jun 27, 2022 7:13:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2092
+Jun 27, 2022 7:13:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2138
+Jun 27, 2022 7:14:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2231
+Jun 27, 2022 7:14:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2386
+2022.06.27 19:15:23 ERROR scalafmt: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala:3: error: [dialect scala213] ; expected but : found
+object Lists:
+            ^
+2022.06.27 19:15:23 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala
+2022.06.27 19:15:45 ERROR scalafmt: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala:3: error: [dialect scala213] ; expected but : found
+object Lists:
+            ^
+2022.06.27 19:15:45 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\Lists.scala
+2022.06.27 19:16:08 ERROR scalafmt: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\main.scala:3: error: [dialect scala213] expected start of definition
+@main def run(): Unit =
+      ^
+2022.06.27 19:16:09 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\main.scala
+2022.06.27 19:16:09 ERROR scalafmt: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\main.scala:3: error: [dialect scala213] expected start of definition
+@main def run(): Unit =
+      ^
+2022.06.27 19:16:09 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\main.scala
+2022.06.27 19:16:20 ERROR scalafmt: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\main.scala:3: error: [dialect scala213] expected start of definition
+@main def run(): Unit =
+      ^
+2022.06.27 19:16:20 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\progfun1-example\example\src\main\scala\example\main.scala
+2022.06.27 21:50:31 INFO  shutting down Metals

@@ -1,0 +1,1 @@
+{"$fields":["nodes","edges"],"nodes":[{"$fields":["id","license","extraInfo","evictedByVersion","jarFile","error"],"id":{"$fields":["organization","name","version"],"organization":"default","name":"tasky_2.11","version":"0.1.0"},"extraInfo":" [S]"}],"edges":[]}

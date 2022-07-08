@@ -1,0 +1,440 @@
+2022.06.29 06:32:12 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\pdcdi\Documents\Scala\Notes\.metals\lsp.trace.json or C:\Users\pdcdi\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.06.29 06:32:20 INFO  logging to file C:\Users\pdcdi\Documents\Scala\Notes\.metals\metals.log
+2022.06.29 06:32:20 INFO  Started: Metals version 0.11.6 in workspace 'C:\Users\pdcdi\Documents\Scala\Notes' for client Visual Studio Code 1.68.1.
+2022.06.29 06:32:20 WARN  Can't instantiate JavaInteractiveSemanticdb (version: Some(JdkVersion(8)), jdkHome: C:\Program Files\Java\jre1.8.0_333, javac exists: false)
+2022.06.29 06:32:21 INFO  time: initialize in 0.86s
+2022.06.29 06:32:26 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.29 06:32:27 WARN  Build server is not auto-connectable.
+2022.06.29 06:32:27 WARN  no build tool detected in workspace 'C:\Users\pdcdi\Documents\Scala\Notes'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.06.29 06:32:43 INFO  no build target found for C:\Users\pdcdi\Documents\Scala\Notes\product.worksheet.sc. Using presentation compiler with project's scala-library version: 3.1.2
+Jun 29, 2022 6:32:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Jun 29, 2022 6:32:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+Jun 29, 2022 6:32:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+Jun 29, 2022 6:32:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+Jun 29, 2022 6:32:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+Jun 29, 2022 6:32:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+Jun 29, 2022 6:32:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20
+Jun 29, 2022 6:32:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24
+Jun 29, 2022 6:32:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+2022.06.29 06:32:52 INFO  time: code lens generation in 7.75s
+2022.06.29 06:33:58 ERROR scalafmt: <input>:2: error: [dialect scala213] ; expected but integer constant found
+  if (a > b) then 1 else f(a) * product(f)(a + 1, b)
+                  ^
+Jun 29, 2022 6:45:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 84
+2022.06.29 06:45:34 WARN  thread interrupt: Evaluating Worksheet product.worksheet.sc
+2022.06.29 06:45:34 INFO  time: evaluated worksheet 'product.worksheet.sc' in 13m4s
+2022.06.29 06:45:58 WARN  thread interrupt: Evaluating Worksheet product.worksheet.sc
+2022.06.29 06:45:58 INFO  time: evaluated worksheet 'product.worksheet.sc' in 23s
+2022.06.29 06:48:25 INFO  no build target found for C:\Users\pdcdi\Documents\Scala\Notes\product.worksheet.sc. Using presentation compiler with project's scala-library version: 3.1.2
+2022.06.29 06:48:25 INFO  time: evaluated worksheet 'product.worksheet.sc' in 2m27s
+2022.06.29 06:48:30 INFO  time: evaluated worksheet 'product.worksheet.sc' in 4.91s
+2022.06.29 06:48:32 INFO  time: evaluated worksheet 'product.worksheet.sc' in 1.85s
+Jun 29, 2022 6:48:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 96
+Jun 29, 2022 6:50:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 100
+2022.06.29 06:51:06 INFO  time: evaluated worksheet 'product.worksheet.sc' in 9.54s
+2022.06.29 08:10:14 INFO  time: code lens generation in 3.1s
+2022.06.29 16:17:14 INFO  time: code lens generation in 2.24s
+Jun 29, 2022 4:18:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 468
+Jun 29, 2022 4:18:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 544
+Jun 29, 2022 4:19:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 583
+2022.06.29 16:19:28 ERROR scalafmt: <input>:12: error: [dialect scala213] illegal start of simple expression
+  def recur(a: Int): Int =
+  ^
+2022.06.29 16:19:30 INFO  time: evaluated worksheet 'product.worksheet.sc' in 2.21s
+2022.06.29 16:27:20 ERROR scalafmt: <input>:12: error: [dialect scala213] illegal start of simple expression
+  def recur(a: Int): Int =
+  ^
+2022.06.29 16:27:21 ERROR scalafmt: <input>:12: error: [dialect scala213] illegal start of simple expression
+  def recur(a: Int): Int =
+  ^
+2022.06.29 16:27:24 INFO  time: evaluated worksheet 'product.worksheet.sc' in 3.96s
+2022.06.29 16:27:26 INFO  time: evaluated worksheet 'product.worksheet.sc' in 1.89s
+2022.06.29 16:27:49 ERROR scalafmt: <input>:12: error: [dialect scala213] illegal start of simple expression
+  def recur(a: Int): Int =
+  ^
+2022.06.29 16:27:52 INFO  time: evaluated worksheet 'product.worksheet.sc' in 3.35s
+Jun 29, 2022 4:28:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 18 is not a valid line number, allowed [0..17]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1649)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1648)
+	... 15 more
+
+2022.06.29 16:28:09 INFO  time: evaluated worksheet 'product.worksheet.sc' in 1.79s
+Jun 29, 2022 4:28:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 731
+Jun 29, 2022 4:28:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 730
+Jun 29, 2022 4:28:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 734
+Jun 29, 2022 4:28:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 735
+Jun 29, 2022 4:28:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 736
+Jun 29, 2022 4:28:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 737
+Jun 29, 2022 4:28:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 741
+Jun 29, 2022 4:28:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 738
+Jun 29, 2022 4:28:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 743
+Jun 29, 2022 4:28:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 753
+2022.06.29 16:28:58 ERROR scalafmt: <input>:12: error: [dialect scala213] illegal start of simple expression
+  def recur(a: Int): Int =
+  ^
+2022.06.29 16:29:01 INFO  time: evaluated worksheet 'product.worksheet.sc' in 2.25s
+Jun 29, 2022 4:29:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 793
+2022.06.29 16:30:14 INFO  time: evaluated worksheet 'product.worksheet.sc' in 2.2s
+Jun 29, 2022 4:30:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 846
+Jun 29, 2022 4:30:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 845
+Jun 29, 2022 4:30:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 847
+Jun 29, 2022 4:30:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 848
+Jun 29, 2022 4:30:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 861
+Jun 29, 2022 4:31:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 912
+Jun 29, 2022 4:31:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 911
+Jun 29, 2022 4:31:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 946
+2022.06.29 16:32:05 ERROR scalafmt: <input>:12: error: [dialect scala213] illegal start of simple expression
+  def recur(a: Int): Int =
+  ^
+2022.06.29 16:32:14 INFO  time: evaluated worksheet 'product.worksheet.sc' in 2.5s
+Jun 29, 2022 4:34:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1006
+2022.06.29 16:34:15 ERROR scalafmt: <input>:12: error: [dialect scala213] illegal start of simple expression
+  def recur(a: Int): Int =
+  ^
+[31merror[39m: product.worksheet.sc:19:1: 
+missing argument for parameter v2 of method apply in trait Function2: (v1: Int, v2: Int): Int
+sum(fact)(5)
+^^^^^^^^^^^^
+2022.06.29 16:34:17 INFO  time: evaluated worksheet 'product.worksheet.sc' in 1.26s
+2022.06.29 16:34:50 ERROR scalafmt: <input>:12: error: [dialect scala213] illegal start of simple expression
+  def recur(a: Int): Int =
+  ^
+2022.06.29 16:34:54 INFO  time: evaluated worksheet 'product.worksheet.sc' in 4.59s
+2022.06.29 16:35:23 ERROR scalafmt: <input>:12: error: [dialect scala213] illegal start of simple expression
+  def recur(a: Int): Int =
+  ^
+2022.06.29 16:35:25 INFO  time: evaluated worksheet 'product.worksheet.sc' in 1.49s
+Jun 29, 2022 4:39:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1181
+Jun 29, 2022 4:39:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1182
+Jun 29, 2022 4:39:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1185
+Jun 29, 2022 4:39:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1184
+Jun 29, 2022 4:39:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1186
+Jun 29, 2022 4:39:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1187
+Jun 29, 2022 4:39:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1189
+Jun 29, 2022 4:39:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1196
+Jun 29, 2022 4:39:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1191
+Jun 29, 2022 4:39:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1198
+2022.06.29 16:39:11 ERROR scalafmt: <input>:12: error: [dialect scala213] illegal start of simple expression
+  def recur(a: Int): Int =
+  ^
+2022.06.29 16:39:15 INFO  time: evaluated worksheet 'product.worksheet.sc' in 3.3s
+2022.06.29 16:39:26 ERROR scalafmt: <input>:12: error: [dialect scala213] illegal start of simple expression
+  def recur(a: Int): Int =
+  ^
+2022.06.29 16:39:27 INFO  time: evaluated worksheet 'product.worksheet.sc' in 0.9s
+Jun 29, 2022 4:40:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1284
+Jun 29, 2022 4:40:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1285
+Jun 29, 2022 4:40:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1286
+Jun 29, 2022 4:40:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1289
+Jun 29, 2022 4:40:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1291
+Jun 29, 2022 4:40:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1290
+Jun 29, 2022 4:40:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1292
+Jun 29, 2022 4:40:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1293
+Jun 29, 2022 4:40:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1295
+Jun 29, 2022 4:40:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1297
+Jun 29, 2022 4:40:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1327
+Jun 29, 2022 4:41:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1433
+Jun 29, 2022 4:41:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1449
+Jun 29, 2022 4:41:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1456
+2022.06.29 16:41:43 ERROR scalafmt: <input>:12: error: [dialect scala213] illegal start of simple expression
+  def recur(a: Int): Int =
+  ^
+2022.06.29 16:41:47 INFO  time: evaluated worksheet 'product.worksheet.sc' in 3.55s
+2022.06.29 19:54:27 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\fixpoints.scala
+Jun 29, 2022 7:54:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 14 is not a valid line number, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1649)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1648)
+	... 15 more
+
+2022.06.29 19:54:49 INFO  time: code lens generation in 1.44s
+2022.06.29 19:55:44 ERROR scalafmt: C:\Users\pdcdi\Documents\Scala\Notes\fixpoints.scala:1: error: [dialect scala213] illegal start of definition val
+val tolerance = 0.0001
+^
+2022.06.29 19:55:44 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\fixpoints.scala
+Jun 29, 2022 7:56:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1639
+Jun 29, 2022 7:56:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1640
+Jun 29, 2022 7:56:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1644
+Jun 29, 2022 7:56:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1652
+2022.06.29 19:56:48 ERROR scalafmt: C:\Users\pdcdi\Documents\Scala\Notes\fixpoints.scala:1: error: [dialect scala213] illegal start of definition val
+val tolerance = 0.0001
+^
+2022.06.29 19:56:48 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\fixpoints.scala
+2022.06.29 19:56:57 ERROR scalafmt: C:\Users\pdcdi\Documents\Scala\Notes\fixpoints.scala:1: error: [dialect scala213] illegal start of definition val
+val tolerance = 0.0001
+^
+2022.06.29 19:56:57 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\fixpoints.scala
+Jun 29, 2022 7:56:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: C:\Users\pdcdi\Documents\Scala\Notes\fixpoints.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: C:\Users\pdcdi\Documents\Scala\Notes\fixpoints.scala
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAcceptStage(Unknown Source)
+	at java.util.concurrent.CompletableFuture.thenAcceptAsync(Unknown Source)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: C:\Users\pdcdi\Documents\Scala\Notes\fixpoints.scala
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:398)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:1863)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2022.06.29 19:57:31 ERROR scalafmt: C:\Users\pdcdi\Documents\Scala\Notes\fixpoints.scala:1: error: [dialect scala213] illegal start of definition val
+val tolerance = 0.0001
+^
+2022.06.29 19:57:32 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\fixpoints.scala
+2022.06.29 19:59:50 ERROR scalafmt: C:\Users\pdcdi\Documents\Scala\Notes\fixpoints.scala:1: error: [dialect scala213] illegal start of definition val
+val tolerance = 0.0001
+^
+2022.06.29 19:59:51 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\fixpoints.scala
+2022.06.29 20:00:15 ERROR scalafmt: C:\Users\pdcdi\Documents\Scala\Notes\fixpoints.scala:1: error: [dialect scala213] illegal start of definition val
+val tolerance = 0.0001
+^
+2022.06.29 20:00:15 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\fixpoints.scala
+2022.06.29 20:00:53 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\build.sbt
+2022.06.29 20:00:59 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\build.sbt
+2022.06.29 20:01:02 INFO  running 'C:\Program Files\Java\jre1.8.0_333\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.6.2 -jar C:\Users\pdcdi\AppData\Local\Temp\metals8294486268119174399\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.06.29 20:01:09 INFO  [info] Updated file C:\Users\pdcdi\Documents\Scala\Notes\project\build.properties: set sbt.version to 1.6.2
+2022.06.29 20:01:09 INFO  [info] welcome to sbt 1.6.2 (Oracle Corporation Java 1.8.0_333)
+2022.06.29 20:01:18 INFO  [info] loading settings for project notes-build-build from metals.sbt ...
+2022.06.29 20:01:21 INFO  [info] loading project definition from C:\Users\pdcdi\Documents\Scala\Notes\project\project
+2022.06.29 20:01:42 INFO  [info] loading settings for project notes-build from metals.sbt ...
+2022.06.29 20:01:42 INFO  [info] loading project definition from C:\Users\pdcdi\Documents\Scala\Notes\project
+2022.06.29 20:01:53 INFO  user cancelled sbt bloopInstall
+2022.06.29 20:01:53 INFO  time: ran 'sbt bloopInstall' in 50s
+2022.06.29 20:01:58 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\build.sbt
+2022.06.29 20:02:01 INFO  running 'C:\Program Files\Java\jre1.8.0_333\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\pdcdi\AppData\Local\Temp\metals3495502799213039001\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.06.29 20:02:06 INFO  [info] welcome to sbt 1.6.2 (Oracle Corporation Java 1.8.0_333)
+2022.06.29 20:02:09 INFO  [info] loading settings for project notes-build-build from metals.sbt ...
+2022.06.29 20:02:11 INFO  [info] loading project definition from C:\Users\pdcdi\Documents\Scala\Notes\project\project
+2022.06.29 20:02:18 INFO  [info] loading settings for project notes-build from metals.sbt ...
+2022.06.29 20:02:18 INFO  [info] loading project definition from C:\Users\pdcdi\Documents\Scala\Notes\project
+2022.06.29 20:41:21 INFO  user cancelled sbt bloopInstall
+2022.06.29 20:41:21 INFO  time: ran 'sbt bloopInstall' in 39m20s
+2022.06.29 20:41:37 ERROR scalafmt: C:\Users\pdcdi\Documents\Scala\Notes\fixpoints.scala:1: error: [dialect scala213] illegal start of definition val
+val tolerance = 0.0001
+^
+2022.06.29 20:41:37 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\fixpoints.scala
+Jun 29, 2022 8:41:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: C:\Users\pdcdi\Documents\Scala\Notes\fixpoints.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: C:\Users\pdcdi\Documents\Scala\Notes\fixpoints.scala
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAcceptStage(Unknown Source)
+	at java.util.concurrent.CompletableFuture.thenAcceptAsync(Unknown Source)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: C:\Users\pdcdi\Documents\Scala\Notes\fixpoints.scala
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:398)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:1863)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2022.06.29 20:41:38 INFO  skipping build import with status 'Cancelled'
+2022.06.29 20:44:53 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\src\main\fixpoints.scala
+Jun 29, 2022 8:44:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1781
+2022.06.29 20:45:30 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\fixpoints.scala
+Jun 29, 2022 8:45:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1786
+2022.06.29 21:12:44 ERROR scalafmt: C:\Users\pdcdi\Documents\Scala\Notes\fixpoints.scala:1: error: [dialect scala213] illegal start of definition val
+val tolerance = 0.0001
+^
+2022.06.29 21:12:44 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\fixpoints.scala
+Jun 29, 2022 9:12:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1810
+Jun 29, 2022 9:13:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1866
+Jun 29, 2022 9:13:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1867
+Jun 29, 2022 9:13:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1868
+Jun 29, 2022 9:13:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1870
+Jun 29, 2022 9:13:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1886
+Jun 29, 2022 9:13:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1898
+2022.06.29 21:13:44 ERROR scalafmt: C:\Users\pdcdi\Documents\Scala\Notes\fixpoints.scala:1: error: [dialect scala213] illegal start of definition val
+val tolerance = 0.0001
+^
+2022.06.29 21:13:44 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\fixpoints.scala
+2022.06.29 21:13:44 ERROR scalafmt: C:\Users\pdcdi\Documents\Scala\Notes\fixpoints.scala:1: error: [dialect scala213] illegal start of definition val
+val tolerance = 0.0001
+^
+2022.06.29 21:13:44 INFO  skipping build import with status 'Dismissed'
+2022.06.29 21:13:44 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\fixpoints.scala
+2022.06.29 21:13:44 INFO  skipping build import with status 'Dismissed'
+2022.06.29 21:13:44 ERROR scalafmt: C:\Users\pdcdi\Documents\Scala\Notes\fixpoints.scala:1: error: [dialect scala213] illegal start of definition val
+val tolerance = 0.0001
+^
+2022.06.29 21:13:44 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\fixpoints.scala
+2022.06.29 21:13:44 INFO  skipping build import with status 'Dismissed'
+Jun 29, 2022 9:13:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1929

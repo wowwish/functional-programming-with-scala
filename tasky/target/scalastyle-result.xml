@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="/mnt/c/Users/pdcdi/Documents/Scala/tasky/src/main/scala/datamodels.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+ </file>
+ <file name="/mnt/c/Users/pdcdi/Documents/Scala/tasky/src/main/scala/HelloSbt.scala">
+  <error column="0" line="2" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"/>
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="1" line="2" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+ </file>
+ <file name="/mnt/c/Users/pdcdi/Documents/Scala/tasky/src/main/scala/taskmanager.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+ </file>
+</checkstyle>
