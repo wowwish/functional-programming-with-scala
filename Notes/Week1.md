@@ -1,9 +1,13 @@
 # Reference Resources
 
 [Online Scala3 Documentation](https://docs.scala-lang.org/scala3/book/introduction.html)
+
 [Online book for Scala 2.7.2](https://www.artima.com/pins1ed/)
+
 [Old Scala Book](https://www.scala-lang.org/old/sites/default/files/linuxsoft_archives/docu/files/ScalaByExample.pdf)
+
 [Scala 2 Tutorial](https://twitter.github.io/scala_school/)
+
 [Scala3 E-book](https://www.creativescala.org/creative-scala.html)
 
 # Declaring Variables and Defining Functions
@@ -104,14 +108,14 @@ val res4: Int = 25
 In _call-by-value_ which is the default evaluation strategy in Scala, the function arguments are first reduced to their expression's value and then used in the function. The function arguments are always evaluated exactly once.
 Example:
 
-sumOfSquares(3, 2+2)
-sumOfSquares(3, 4)
-sumOfSquares(3, 4)
-3 * 3 + square(4)
-9 + square(4)
-9 + 4 * 4
-9 + 16
-25
+    sumOfSquares(3, 2+2)
+    sumOfSquares(3, 4)
+    sumOfSquares(3, 4)
+    3 * 3 + square(4)
+    9 + square(4)
+    9 + 4 * 4
+    9 + 16
+    25
 
 The Advantage of CBV is that the argument expressions are evaluated only once and their values are cached into the argument variables.
 
@@ -120,15 +124,15 @@ In _call-by-name_, the function is applied to unreduced arguments and the argume
 Example:
 
 
-sumOfSquares(3, 2+2)
-square(3) + square(2+2)
-3 * 3 + square(2+2)
-9 + square(2+2)
-9 + (2+2) * (2+2)
-9 + 4 * (2+2)
-9 + 4 * 4
-9 + 16
-25
+    sumOfSquares(3, 2+2)
+    square(3) + square(2+2)
+    3 * 3 + square(2+2)
+    9 + square(2+2)
+    9 + (2+2) * (2+2)
+    9 + 4 * (2+2)
+    9 + 4 * 4
+    9 + 16
+    25
 
 CBN has the advantage where argument expressions that are not used in the function body will not be evaluated.
 
@@ -142,10 +146,10 @@ However, there are significant runtime advantages depending on the evaluation st
 scala> def test(x: Int, y: Int) = x * x
 def test(x: Int, y: Int): Int
 ```
-test(2, 3)         ->   Both CBV and CBN take same number of steps to arrive at the final value
-test(3+4, 8)       ->   CBV has the advantage here
-test(7, 2+4)       ->   CBN has the advantage here.
-test(3+4, 2*4)     ->   CBV has advantage of single time evaluation but it evaluates the unused argument as well. CBN will do two evaluations of the _x_ argument, but it will not evaluate _y_. Here the advantages of each evaluation strategy cancel out. 
+    test(2, 3)         ->   Both CBV and CBN take same number of steps to arrive at the final value
+    test(3+4, 8)       ->   CBV has the advantage here
+    test(7, 2+4)       ->   CBN has the advantage here.
+    test(3+4, 2*4)     ->   CBV has advantage of single time evaluation but it evaluates the unused argument as well. CBN will do two evaluations of the _x_ argument, but it will not evaluate _y_. Here the advantages of each evaluation strategy cancel out. 
 
 
 Theorems on CBV/CBN evaluation and its termination:
@@ -283,11 +287,11 @@ To compute sqrt(x):
 
 For example, take the case of sqrt(2) and start with a guess value of 1:
 
-Estimation              Quotient                Mean
-    1                   2 / 1 = 2               1.5
-    1.5                 2 / 1.5 = 1.333         1.4162
-    1.4162              2 / 1.4162 = 1.4118     1.4142
-    1.4142              .....                   ....
+  Estimation              Quotient                Mean
+      1                   2 / 1 = 2               1.5
+      1.5                 2 / 1.5 = 1.333         1.4162
+      1.4162              2 / 1.4162 = 1.4118     1.4142
+      1.4142              .....                   ....
 
 Define a function that computes one _iteration_ step:
 ```
@@ -296,7 +300,7 @@ def sqrtIter(guess: Double, x: Double): Double =
   else sqrtIter(improve(guess, x), x) 
 ```
 Note that _sqrtIter_ is _recursive_, its right-hand-side calls itself.
-Recursive functions need and explicit return type in Scala.
+Recursive functions `require` an explicit `return type` in Scala.
 For non-recursive functions, this return type is optional. But it is recommended to add it as a Good Practice.
 
 Also define functions to _improve_ the estimate and to _test_ for termination (check for the difference between the square of _guess_ and the actual value _x_):
@@ -336,7 +340,7 @@ def isGoodEnough(guess: Double, x: Double):Boolean = abs(guess * guess - x) < 0.
 
 # Blocks and Lexical Scoping
 
-It's a good practice in programming to split up a task into many small functions. Functions like _isGoodEnough_, _improve_ and _sqrIter_ pollute the global namespace and we normally would not want these functions to be user-accessible as they are only part of the implementation of _sqrt_. We can put these _auxillary_ functions or sub-functions inside _sqrt_ using a block delimited by braces `{ ... }`.
+It's a good practice in programming to split up a task into many small functions. Functions like _isGoodEnough_, _improve_ and _sqrIter_ pollute the global namespace and we normally would not want these functions to be user-accessible as they are only part of the implementation of _sqrt_. We can put these _auxiliary_ functions or sub-functions inside _sqrt_ using a block delimited by braces `{ ... }`.
 
 ```
 def sqrt(x: Double) = {
@@ -356,7 +360,7 @@ def sqrt(x: Double) = {
 }
 ```
 
-A block consists of a seuqence of definitions or expressions. __The last element of a block is an expression that defines its value__. This return expression can be preceded by _auxillary_ definitions. Blocks are themselves an expression and they can appear everywhere an expression can. Scala3 also suppports indentation for blocks similar to python instead of braces. We can also write the above function like this in Scala3:
+A block consists of a seuqence of definitions or expressions. __The last element of a block is an expression that defines its value__. This return expression can be preceded by _auxiliary_ definitions. Blocks are themselves an expression and they can appear everywhere an expression can. Scala3 also suppports indentation for blocks similar to python instead of braces. We can also write the above function like this in Scala3:
 ```
 def sqrt(x: Double) =
   def abs(x: Double): Double = if (x >= 0) x else -x
@@ -418,7 +422,7 @@ sqrt(4)
 sqrt(25)
 ```
 
-The above code snippet works without the argument __x__ being declared as an argument in any of the _auxillary_ functions because it is outside the block of the _auxillary_ functions and is not shadowed by any local declaration in the body of the _auxillary_ functions.
+The above code snippet works without the argument __x__ being declared as an argument in any of the _auxiliary_ functions because it is outside the block of the _auxiliary_ functions and is not shadowed by any local declaration in the body of the _auxiliary_ functions.
 
 
 # Semicolons
@@ -499,4 +503,6 @@ def gcd(a: Int, b: Int): Int =
   if (b == 0) a else gcd(b, a % b)
 ```
 
-This will make the compiler to issue a warning if the `gcd` function implementation is not _tail recursive_. Even if the `@tailrec` annotation is not used, the compiler will try to optimise the `gcd` function to be _tail recursive_, but you won't get an error as a check for you that `gcd` is _tail recursive_
+This will make the compiler to issue a warning if the `gcd` function implementation is not _tail recursive_. Even if the `@tailrec` annotation is not used, the compiler will try to optimise the `gcd` function to be _tail recursive_, but you won't get an error as a check for you that `gcd` is _tail recursive_.
+
+

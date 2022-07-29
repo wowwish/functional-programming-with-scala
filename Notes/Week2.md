@@ -139,7 +139,7 @@ is shown to be equivalent to
 
     def f = (ps1 => (ps2 => ...(psn => E)...))
 
-This stype of function definition and function application is known as __currying__, named for its instigator, Haskell Brooks Curry (1900 - 1982).
+This type of function definition and function application is known as __currying__, named for its instigator, Haskell Brooks Curry (1900 - 1982).
 
 Given:
 ```
@@ -664,11 +664,11 @@ Where
 
 Then, the following expression
 
-  C(v1, ..., vm).f(w1, ..., wn)
+    C(v1, ..., vm).f(w1, ..., wn)
 
 is evaluated as
 
-  \[w1/y1, ..., wn/yn\]\[v1/x1, ..., vm/xm\]\[C(v1, ..., vm)/this\]b
+    \[w1/y1, ..., wn/yn\]\[v1/x1, ..., vm/xm\]\[C(v1, ..., vm)/this\]b
 
 There are three substitutions at work here:
   * The substitution of the formal parameters `y1, ..., yn` of the function `f` by the arguments `w1, ..., wn`
@@ -677,17 +677,17 @@ There are three substitutions at work here:
 
 __Object Rewriting Examples:__
 
-        Rational(1, 2).numer
-  -->   \[1/x, 2/y\][][Rational(1, 2)/this]x
-  =     1
+          Rational(1, 2).numer
+    -->   \[1/x, 2/y\][][Rational(1, 2)/this]x
+    =     1
 
 
-        Rational(1, 2).less(Rational(2, 3))
-  -->   \[1/x, 2/y\][Rational(2, 3)/that][Rational(1, 2)/this]
-            this.numer * that.denom < that.numer * this.denom
-  =     Rational(1, 2).numer * Rational(2, 3).denom < Rational(2, 3).numer * Rational(1, 2).denom
-  -->>  1 * 3 < 2 * 2
-  -->>  true
+          Rational(1, 2).less(Rational(2, 3))
+    -->   \[1/x, 2/y\][Rational(2, 3)/that][Rational(1, 2)/this]
+              this.numer * that.denom < that.numer * this.denom
+    =     Rational(1, 2).numer * Rational(2, 3).denom < Rational(2, 3).numer * Rational(1, 2).denom
+    -->>  1 * 3 < 2 * 2
+    -->>  true
 
 
 
@@ -715,9 +715,9 @@ _Extension method_ substitution works like normal _method_ substitution, but
 
 Example:
   
-        Rational(1, 2).min(Rational(2, 3))
-  -->   \[Rational(1, 2)/r\]\[Rational(2, 3)/s\] if (x.less(r)) s else r
-  =     if(Rational(2, 3).less(Rational(1, 2))) Rational(2, 3) else Rational(1, 2)
+          Rational(1, 2).min(Rational(2, 3))
+    -->   \[Rational(1, 2)/r\]\[Rational(2, 3)/s\] if (x.less(r)) s else r
+    =     if(Rational(2, 3).less(Rational(1, 2))) Rational(2, 3) else Rational(1, 2)
 
 
 In principle, the rational numbers defined by _Rational_ are as natural as integers. But for the user of these abstractions, there is a noticeable difference:
@@ -762,25 +762,25 @@ It is therefore possible to write `r min s` instead of `r.min(s)` when calling t
 # Operator Precedence
 
 The __precedence__ of an operator is determined by its first character. The following table lists the characters in `increasing order` of priority precedence:
-  (all letters)
-  |                                                                                 (lowest precedence)
-  ^
-  &
-  <>
-  =!
-  :                                                                                               
-  +-
-  */%                                                                                (highest precedence)
-  (all other special characters)
+    (all letters)
+    |                                                                                 (lowest precedence)
+    ^
+    &
+    <>
+    =!
+    :                                                                                               
+    +-
+    */%                                                                                (highest precedence)
+    (all other special characters)
 
 
 __Exercise:__
 Provide a fully parenthesized version of 
   
-  a + b ^? c ?^ d less a ==> b | c
+    a + b ^? c ?^ d less a ==> b | c
 
 Every binary opetarion needs to be put in parantheses, but the structure of the expression should not change.
 Solution:
 
-  ((a + b) ^? (c ?^ d)) less ((a ==> b) | c)
+    ((a + b) ^? (c ?^ d)) less ((a ==> b) | c)
 

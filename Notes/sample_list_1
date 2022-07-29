@@ -1,0 +1,21 @@
+digraph {
+	graph [ordering="out"]
+	1 [label=CONS];
+	2 [label=CONS];
+	3 [label=3];
+	4 [label=CONS];
+	5 [label=NIL];
+	6 [label=CONS];
+	7 [label=True];
+	8 [label=CONS];
+	9 [label=False];
+	0 [label=NIL];
+	1 -> 2;
+	1 -> 4;
+	4 -> 3;
+	4 -> 5;
+	2 -> 7;
+	2 -> 8;
+	8 -> 9;
+	8 -> 0; 
+}
