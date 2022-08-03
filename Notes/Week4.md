@@ -606,7 +606,7 @@ But covariant array typing causes problems. To see why, consider the Java code b
 NonEmpty[] a = new NonEmpty[]{
   new NonEmpty(1, new Empty(), new Empty())};
 IntSet[] b = a;
-b[0] = new Empty();      // This line produces a runtime erroe! a[0] is set to 'new Empty()' since 'b' points to 'a'
+b[0] = new Empty();      // This line produces a runtime error! a[0] is set to 'new Empty()' since 'b' points to 'a'
 NonEmpty s = a[0];
 ```
 It looks like we assigned in the last line an _Empty_ set to a variable of type _NonEmpty_! (a violation of _type_ soundedness - our _type_ system allows us to do something which is clearly wrong. The Java Runtime system patches this security hole by storing a _runtime tag_ in _arrays_ that remember with what _type_ the _array_ was created.) What went wrong ? _Arrays_ can be _covariant_ in Java, but we encounter Runtime Exceptions when we use that.
