@@ -1,0 +1,11 @@
+graph {
+	1 [label=z];
+	2 [label=op];
+	3 [label=x1];
+	4 [label=op];
+	5 [label=xn];
+    4 -- 2 [style="dotted"];
+    4 -- 5;
+    2 -- 1;
+    2 -- 3;
+}

@@ -1,0 +1,19 @@
+graph {
+	1 [label=x1];
+	2 [label="::"];
+	3 [label=xn];
+	4 [label="::"];
+	5 [label=y1];
+    6 [label="::"];
+    7 [label="::"];
+    8 [label=yn];
+    9 [label=Nil]
+    7 -- 6 [style="dotted"];
+    7 -- 8;
+    6 -- 4;
+    6 -- 5;
+    4 -- 1;
+    4 -- 2 [style="dotted"];
+    2 -- 3;
+    2 -- 9
+}

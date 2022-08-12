@@ -1,0 +1,15 @@
+graph {
+	1 [label=x1];
+	2 [label=op];
+	3 [label=x2];
+	4 [label=op];
+	5 [label="x{n-1}"];
+    6 [label=op];
+    7 [label=xn];
+    2 -- 1;
+    2 -- 4;
+    4 -- 3;
+    4 -- 6 [style="dotted"];
+    6 -- 5;
+    6 -- 7;
+}

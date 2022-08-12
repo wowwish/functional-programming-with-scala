@@ -16041,3 +16041,665 @@ WARNING: Unmatched cancel notification for request id 22284
 Aug 03, 2022 11:40:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 22283
 2022.08.03 11:41:22 INFO  shutting down Metals
+2022.08.10 00:34:13 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\pdcdi\Documents\Scala\.metals\lsp.trace.json or C:\Users\pdcdi\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.08.10 00:34:14 INFO  logging to file C:\Users\pdcdi\Documents\Scala\.metals\metals.log
+2022.08.10 00:34:14 INFO  Started: Metals version 0.11.7 in workspace 'C:\Users\pdcdi\Documents\Scala' for client Visual Studio Code 1.70.0.
+2022.08.10 00:34:15 INFO  time: initialize in 1.04s
+2022.08.10 00:34:16 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.08.10 00:34:16 WARN  Build server is not auto-connectable.
+2022.08.10 00:34:16 WARN  no build tool detected in workspace 'C:\Users\pdcdi\Documents\Scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.08.10 00:34:25 INFO  no build target found for C:\Users\pdcdi\Documents\Scala\Notes\Lists.worksheet.sc. Using presentation compiler with project's scala-library version: 3.1.3
+2022.08.10 00:34:26 INFO  no build target found for C:\Users\pdcdi\Documents\Scala\Notes\Lists.worksheet.sc. Using presentation compiler with project's scala-library version: 3.1.3
+2022.08.10 00:34:26 INFO  time: evaluated worksheet 'Lists.worksheet.sc' in 7.59s
+2022.08.10 00:34:27 INFO  time: code lens generation in 7.83s
+2022.08.10 00:34:35 INFO  no build target found for C:\Users\pdcdi\Documents\Scala\Notes\Lists2.worksheet.sc. Using presentation compiler with project's scala-library version: 3.1.3
+2022.08.10 00:34:35 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 1.64s
+[31merror[39m: Notes\Lists2.worksheet.sc:1:5: identifier expected but end of file found
+def 
+    ^
+2022.08.10 00:34:39 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.33s
+[31merror[39m: Notes\Lists2.worksheet.sc:1:15: 
+Int does not take type parameters
+def removeAt[n: Int, xs: List[T]] = ??? 
+              ^^^^^
+[31merror[39m: Notes\Lists2.worksheet.sc:1:31: 
+Not found: type T
+def removeAt[n: Int, xs: List[T]] = ??? 
+                              ^
+2022.08.10 00:34:49 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.17s
+[31merror[39m: Notes\Lists2.worksheet.sc:1:15: 
+Int does not take type parameters
+def removeAt[n: Int, xs: List[T]] = ??? 
+              ^^^^^
+[31merror[39m: Notes\Lists2.worksheet.sc:1:31: 
+Not found: type T
+def removeAt[n: Int, xs: List[T]] = ??? 
+                              ^
+2022.08.10 00:34:55 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.15s
+[31merror[39m: Notes\Lists2.worksheet.sc:1:33: ) expected but ] found
+def removeAt(n: Int, xs: List[T]] = ??? 
+                                ^
+2022.08.10 00:35:00 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.31s
+[31merror[39m: Notes\Lists2.worksheet.sc:2:1: ) expected but end of file found
+
+^
+2022.08.10 00:35:02 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.23s
+[31merror[39m: Notes\Lists2.worksheet.sc:1:31: 
+Not found: type T
+def removeAt(n: Int, xs: List[T]) = ??? 
+                              ^
+2022.08.10 00:35:04 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 73ms
+[31merror[39m: Notes\Lists2.worksheet.sc:1:31: 
+Not found: type T
+def removeAt(n: Int, xs: List[T]): List[T] = ??? 
+                              ^
+[31merror[39m: Notes\Lists2.worksheet.sc:1:41: 
+Not found: type T
+def removeAt(n: Int, xs: List[T]): List[T] = ??? 
+                                        ^
+2022.08.10 00:35:20 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.11s
+2022.08.10 00:35:57 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.22s
+[31merror[39m: Notes\Lists2.worksheet.sc:4:1: = expected but end of file found
+
+^
+2022.08.10 00:36:07 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.3s
+[31merror[39m: Notes\Lists2.worksheet.sc:4:1: = expected but end of file found
+
+^
+2022.08.10 00:36:14 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.2s
+[31merror[39m: Notes\Lists2.worksheet.sc:3:7: = expected but end of file found
+val xs
+      ^
+2022.08.10 00:36:19 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.24s
+[31merror[39m: Notes\Lists2.worksheet.sc:1:31: 
+Not found: type T
+def removeAt(n: Int, xs: List[T]): List[T] = ???
+                              ^
+[31merror[39m: Notes\Lists2.worksheet.sc:1:41: 
+Not found: type T
+def removeAt(n: Int, xs: List[T]): List[T] = ???
+                                        ^
+2022.08.10 00:36:36 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.16s
+2022.08.10 00:36:47 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.32s
+2022.08.10 00:37:07 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.31s
+[31merror[39m: Notes\Lists2.worksheet.sc:3:18: 
+Found:    Unit
+Required: List[T]
+    case y :: ys => 
+                 ^^
+2022.08.10 00:38:09 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.23s
+[31merror[39m: Notes\Lists2.worksheet.sc:3:23: illegal start of simple expression
+    case y :: ys => if
+                      ^
+2022.08.10 00:38:14 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.17s
+[31merror[39m: Notes\Lists2.worksheet.sc:3:32: illegal start of simple expression
+    case y :: ys => if (n == 0)
+                               ^
+2022.08.10 00:38:17 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.18s
+[31merror[39m: Notes\Lists2.worksheet.sc:3:32: illegal start of simple expression
+    case y :: ys => if (n == 0) 
+                               ^
+2022.08.10 00:38:19 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.19s
+[31merror[39m: Notes\Lists2.worksheet.sc:3:21: 
+Found:    Unit
+Required: List[T]
+Maybe you are missing an else part for the conditional?
+    case y :: ys => if (n == 0) ys
+                    ^^^^^^^^^^^^^^
+2022.08.10 00:38:22 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.22s
+[31merror[39m: Notes\Lists2.worksheet.sc:5:1: illegal start of simple expression
+val xs = List('a', 'b', 'c', 'd')
+^^^
+2022.08.10 00:38:25 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.19s
+[31merror[39m: Notes\Lists2.worksheet.sc:3:41: 
+Found:    (y : T)
+Required: List[T]
+    case y :: ys => if (n == 0) ys else y
+                                        ^
+2022.08.10 00:38:30 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.14s
+[31merror[39m: Notes\Lists2.worksheet.sc:3:41: 
+postfix operator `::` needs to be enabled
+by making the implicit value scala.language.postfixOps visible.
+----
+This can be achieved by adding the import clause 'import scala.language.postfixOps'
+or by setting the compiler option -language:postfixOps.
+See the Scaladoc for value scala.language.postfixOps for a discussion
+why the feature needs to be explicitly enabled.
+    case y :: ys => if (n == 0) ys else y :: 
+                                        ^
+2022.08.10 00:38:32 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.23s
+2022.08.10 00:38:39 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.31s
+2022.08.10 00:42:36 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.43s
+[31merror[39m: Notes\Lists2.worksheet.sc:10:5: Procedure syntax is not supported. Convert procedure `flatten` to method by adding `: Unit =`.
+def flatten
+    ^^^^^^^
+2022.08.10 00:42:43 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.17s
+2022.08.10 00:42:54 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.65s
+2022.08.10 00:43:05 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.31s
+2022.08.10 00:43:08 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.42s
+2022.08.10 00:43:12 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.42s
+[31merror[39m: Notes\Lists2.worksheet.sc:10:41: 
+Not found: ??
+def flatten(xs: List[Any]): List[Any] = ??
+                                        ^^
+2022.08.10 00:43:22 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.14s
+2022.08.10 00:43:24 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.33s
+[31merror[39m: Notes\Lists2.worksheet.sc:14:1: illegal start of simple pattern
+val ys = List(List(1, 1), 2, List(3, List(5, 8)))
+^^^
+2022.08.10 00:43:35 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.15s
+[31merror[39m: Notes\Lists2.worksheet.sc:12:18: 
+Found:    Unit
+Required: List[Any]
+    case y :: ys => 
+                 ^^
+2022.08.10 00:43:40 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.16s
+[31merror[39m: Notes\Lists2.worksheet.sc:12:18: 
+Found:    Unit
+Required: List[Any]
+    case y :: ys => 
+                 ^^
+2022.08.10 00:45:10 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.28s
+[31merror[39m: Notes\Lists2.worksheet.sc:12:18: 
+Found:    Unit
+Required: List[Any]
+    case y :: ys => 
+                 ^^
+2022.08.10 00:45:37 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.17s
+[31merror[39m: Notes\Lists2.worksheet.sc:12:18: 
+Found:    Unit
+Required: List[Any]
+    case y :: ys => 
+                 ^^
+2022.08.10 00:45:47 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.21s
+[31merror[39m: Notes\Lists2.worksheet.sc:13:18: 
+Found:    Unit
+Required: List[Any]
+    case y :: ys => 
+                 ^^
+2022.08.10 00:46:16 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.17s
+[31merror[39m: Notes\Lists2.worksheet.sc:13:18: 
+Found:    Unit
+Required: List[Any]
+    case y :: ys => 
+                 ^^
+2022.08.10 00:46:28 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.18s
+[31merror[39m: Notes\Lists2.worksheet.sc:13:18: 
+Found:    Unit
+Required: List[Any]
+    case y :: ys => 
+                 ^^
+2022.08.10 00:46:30 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.13s
+[31merror[39m: Notes\Lists2.worksheet.sc:14:18: 
+Found:    Unit
+Required: List[Any]
+    case y :: ys => 
+                 ^^
+2022.08.10 00:46:43 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.19s
+[31merror[39m: Notes\Lists2.worksheet.sc:14:18: 
+Found:    Unit
+Required: List[Any]
+    case y :: ys => 
+                 ^^
+2022.08.10 00:46:57 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.19s
+[31merror[39m: Notes\Lists2.worksheet.sc:14:18: 
+Found:    Unit
+Required: List[Any]
+    case y :: ys => 
+                 ^^
+2022.08.10 00:47:12 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.14s
+[31merror[39m: Notes\Lists2.worksheet.sc:14:29: 
+Found:    (y : Any)
+Required: List[Any]
+    case y :: ys => flatten(y) 
+                            ^
+2022.08.10 00:47:57 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.15s
+[31merror[39m: Notes\Lists2.worksheet.sc:14:29: 
+Found:    (y : Any)
+Required: List[Any]
+    case y :: ys => flatten(y) flatten(ys)
+                            ^
+[31merror[39m: Notes\Lists2.worksheet.sc:14:40: 
+Found:    (ys : List[Any])
+Required: Any => IterableOnce[Nothing]
+    case y :: ys => flatten(y) flatten(ys)
+                                       ^^
+2022.08.10 00:48:01 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.16s
+[31merror[39m: Notes\Lists2.worksheet.sc:14:29: 
+Found:    (y : Any)
+Required: List[Any]
+    case y :: ys => flatten(y) ++ flatten(ys)
+                            ^
+2022.08.10 00:48:15 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.19s
+Aug 10, 2022 12:48:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1322
+[31merror[39m: Notes\Lists2.worksheet.sc:12:20: ) expected but ] found
+def flatten(xs: Any]): List[Any] = xs match
+                   ^
+2022.08.10 00:48:46 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.14s
+2022.08.10 00:48:47 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.39s
+[31merror[39m: Notes\Lists2.worksheet.sc:15:12: 
+Found:    Unit
+Required: List[Any]
+    case _ => 
+           ^^
+2022.08.10 00:49:13 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.17s
+2022.08.10 00:49:29 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.36s
+2022.08.10 00:50:57 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.26s
+2022.08.10 00:51:10 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.26s
+2022.08.10 00:51:14 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.36s
+2022.08.10 00:51:16 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.36s
+2022.08.10 00:51:25 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.33s
+2022.08.10 00:51:30 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.33s
+2022.08.10 00:51:45 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.31s
+2022.08.10 00:52:02 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.35s
+2022.08.10 00:52:03 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.34s
+[31merror[39m: Notes\Lists2.worksheet.sc:15:21: 
+Not found: Ni
+    case _ => xs :: Ni// anything other than a list, such as individual elements of the list 'xs' is converted into a list
+                    ^^
+2022.08.10 00:52:09 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.16s
+[31merror[39m: Notes\Lists2.worksheet.sc:15:21: 
+Not found: Ni
+    case _ => xs :: Ni    // anything other than a list, such as individual elements of the list 'xs' is converted into a list
+                    ^^
+2022.08.10 00:52:11 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.17s
+2022.08.10 00:52:13 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.3s
+2022.08.10 00:52:18 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.27s
+Aug 10, 2022 12:52:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1671
+2022.08.10 00:52:22 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.23s
+2022.08.10 00:52:23 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.33s
+2022.08.10 00:52:25 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.32s
+2022.08.10 00:52:58 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.23s
+2022.08.10 00:53:04 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.23s
+2022.08.10 00:53:07 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.43s
+2022.08.10 01:21:14 INFO  time: evaluated worksheet 'Lists.worksheet.sc' in 1.12s
+2022.08.10 01:21:16 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.47s
+2022.08.10 01:21:21 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.32s
+[31merror[39m: Notes\Lists2.worksheet.sc:22:1: 
+Not found: e
+e
+^
+2022.08.10 01:21:26 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.14s
+[31merror[39m: Notes\Lists2.worksheet.sc:23:1: 
+Not found: extension
+extension 
+^^^^^^^^^
+2022.08.10 01:21:30 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.13s
+[31merror[39m: Notes\Lists2.worksheet.sc:23:27: Extension without extension method
+extension [T](xs: List[T]): 
+                          ^
+2022.08.10 01:21:39 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.2s
+[31merror[39m: Notes\Lists2.worksheet.sc:24:9: Procedure syntax is not supported. Convert procedure `splitAt` to method by adding `: Unit =`.
+    def splitAt()
+        ^^^^^^^
+2022.08.10 01:21:47 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.22s
+[31merror[39m: Notes\Lists2.worksheet.sc:24:25: identifier expected but ) found
+    def splitAt(n: Int, )
+                        ^
+2022.08.10 01:21:51 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.2s
+2022.08.10 01:22:04 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.28s
+[31merror[39m: Notes\Lists2.worksheet.sc:24:38: ) expected but end of file found
+    def splitAt(n: Int) = (xs.take(n)
+                                     ^
+2022.08.10 01:22:13 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.13s
+2022.08.10 01:22:19 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.31s
+2022.08.10 01:23:37 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.24s
+[31merror[39m: Notes\Lists2.worksheet.sc:28:1: 
+missing argument for parameter xs of method splitAt in class App: (xs: List[Any])(n: Int): (List[Any], List[Any])
+splitAt()
+^^^^^^^^^
+2022.08.10 01:23:42 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.15s
+[31merror[39m: Notes\Lists2.worksheet.sc:27:12: 
+missing argument for parameter n of method splitAt in class List: (n: Int): (List[Int], List[Int])
+val test = List(1, 2, 3, 4).splitAt()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.08.10 01:23:47 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.18s
+2022.08.10 01:23:49 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.28s
+2022.08.10 01:24:07 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.24s
+2022.08.10 01:24:10 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.35s
+2022.08.10 01:24:17 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.37s
+2022.08.10 01:24:23 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.31s
+2022.08.10 01:24:27 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.34s
+[31merror[39m: Notes\Lists2.worksheet.sc:27:29: identifier expected but end of file found
+val test = List(1, 2, 3, 4).
+                            ^
+2022.08.10 01:24:32 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.13s
+2022.08.10 01:24:37 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.25s
+2022.08.10 01:41:58 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.67s
+2022.08.10 01:58:12 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\patmat\src\main\scala\patmat\Huffman.scala
+Aug 10, 2022 1:58:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2344
+2022.08.10 02:16:03 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.74s
+2022.08.10 11:45:13 INFO  no build target found for C:\Users\pdcdi\Documents\Scala\Notes\lists3.worksheet.sc. Using presentation compiler with project's scala-library version: 3.1.3
+2022.08.10 11:45:13 INFO  time: evaluated worksheet 'lists3.worksheet.sc' in 14s
+2022.08.10 11:45:14 INFO  time: evaluated worksheet 'lists3.worksheet.sc' in 0.8s
+2022.08.10 11:45:14 INFO  time: evaluated worksheet 'lists3.worksheet.sc' in 0.31s
+2022.08.10 11:45:21 INFO  time: evaluated worksheet 'lists3.worksheet.sc' in 0.47s
+[31merror[39m: Notes\lists3.worksheet.sc:2:21: illegal start of simple expression
+nums.partition(p => )
+                    ^
+2022.08.10 11:45:32 INFO  time: evaluated worksheet 'lists3.worksheet.sc' in 0.24s
+[31merror[39m: Notes\lists3.worksheet.sc:2:23: identifier expected but ) found
+nums.partition(x => x.)
+                      ^
+2022.08.10 11:45:40 INFO  time: evaluated worksheet 'lists3.worksheet.sc' in 0.18s
+[31merror[39m: Notes\lists3.worksheet.sc:2:29: ) expected but = found
+nums.partition(x => x & 2 ! = 0)
+                            ^
+2022.08.10 11:45:45 INFO  time: evaluated worksheet 'lists3.worksheet.sc' in 0.34s
+[31merror[39m: Notes\lists3.worksheet.sc:2:21: 
+None of the overloaded alternatives of method & in class Int with types
+ (x: Long): Long
+ (x: Int): Int
+ (x: Char): Int
+ (x: Short): Int
+ (x: Byte): Int
+match arguments ((true : Boolean))
+nums.partition(x => x & 2 != 0)
+                    ^^^
+2022.08.10 11:45:46 INFO  time: evaluated worksheet 'lists3.worksheet.sc' in 0.21s
+[31merror[39m: Notes\lists3.worksheet.sc:2:24: ) expected but integer constant found
+nums.partition(x => x  2 != 0)
+                       ^
+2022.08.10 11:45:51 INFO  time: evaluated worksheet 'lists3.worksheet.sc' in 0.17s
+2022.08.10 11:45:52 INFO  time: evaluated worksheet 'lists3.worksheet.sc' in 0.39s
+2022.08.10 11:46:20 INFO  time: evaluated worksheet 'lists3.worksheet.sc' in 0.35s
+2022.08.10 11:46:24 INFO  time: evaluated worksheet 'lists3.worksheet.sc' in 0.29s
+2022.08.10 11:47:19 INFO  time: evaluated worksheet 'lists3.worksheet.sc' in 0.46s
+2022.08.10 11:47:31 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.38s
+2022.08.10 11:47:48 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.31s
+2022.08.10 11:47:52 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.48s
+2022.08.10 11:47:56 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.47s
+2022.08.10 11:48:00 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.38s
+2022.08.10 11:52:29 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.55s
+2022.08.10 11:52:35 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.5s
+2022.08.10 11:52:39 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.38s
+2022.08.10 11:52:40 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.48s
+2022.08.10 11:52:53 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.47s
+2022.08.10 11:52:59 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.34s
+2022.08.10 11:53:06 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.5s
+2022.08.10 11:53:09 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.5s
+2022.08.10 11:53:21 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.34s
+2022.08.10 11:53:25 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.49s
+[31merror[39m: Notes\Lists2.worksheet.sc:40:1: 
+Not found: d
+d
+^
+2022.08.10 11:53:30 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.28s
+2022.08.10 11:53:39 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.79s
+2022.08.10 11:53:50 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 1.21s
+2022.08.10 11:53:53 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.67s
+2022.08.10 11:53:58 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.5s
+2022.08.10 11:54:01 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.56s
+2022.08.10 11:54:07 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.51s
+[31merror[39m: Notes\Lists2.worksheet.sc:45:1: 
+Not found: pacl
+pacl(elems)
+^^^^
+[31merror[39m: Notes\Lists2.worksheet.sc:45:6: 
+Not found: elems
+pacl(elems)
+     ^^^^^
+2022.08.10 11:54:17 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.21s
+[31merror[39m: Notes\Lists2.worksheet.sc:45:1: 
+Not found: pacl
+pacl(elems)
+^^^^
+2022.08.10 11:54:18 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.24s
+2022.08.10 11:54:23 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.38s
+[31merror[39m: Notes\Lists2.worksheet.sc:42:38: illegal start of simple expression
+  case x :: xs1 => val (more, less) = 
+                                     ^
+2022.08.10 11:55:44 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.23s
+[31merror[39m: Notes\Lists2.worksheet.sc:42:38: illegal start of simple expression
+  case x :: xs1 => val (more, rest) = 
+                                     ^
+2022.08.10 11:55:47 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.19s
+[31merror[39m: Notes\Lists2.worksheet.sc:42:39: 
+missing argument for parameter p of method span in class List: (p: T => Boolean): (List[T], List[T])
+  case x :: xs1 => val (more, rest) = xs1.span()
+                                      ^^^^^^^^^^
+[31merror[39m: Notes\Lists2.worksheet.sc:42:20: 
+Recursive value $1$ needs type
+  case x :: xs1 => val (more, rest) = xs1.span()
+                   ^
+2022.08.10 11:55:54 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.22s
+[31merror[39m: Notes\Lists2.worksheet.sc:42:61: 
+Found:    Unit
+Required: List[List[T]]
+  case x :: xs1 => val (more, rest) = xs1.span(y => y == x)
+                                                            
+2022.08.10 11:55:58 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.28s
+Aug 10, 2022 11:56:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3152
+[31merror[39m: Notes\Lists2.worksheet.sc:43:46: 
+Found:    Unit
+Required: List[List[T]]
+    val (more, rest) = xs1.span(y => y == x)
+                                             
+2022.08.10 11:56:30 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.23s
+[31merror[39m: Notes\Lists2.worksheet.sc:44:13: 
+missing argument for parameter xs of method pack in class App: (xs: List[Any]): List[List[Any]]
+    more :: pack()
+            ^^^^^^
+2022.08.10 11:56:36 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.38s
+2022.08.10 11:56:48 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.61s
+2022.08.10 11:57:04 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.46s
+2022.08.10 11:57:28 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.49s
+[31merror[39m: Notes\Lists2.worksheet.sc:46:1: ) expected but val found
+val elems = List("a", "a", "a", "b", "c", "c", "a")
+^^^
+2022.08.10 11:57:33 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.18s
+2022.08.10 11:57:35 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.53s
+Aug 10, 2022 4:38:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3272
+Aug 10, 2022 4:39:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3310
+Aug 10, 2022 4:39:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3312
+2022.08.10 16:39:04 INFO  time: code lens generation in 3.28s
+2022.08.10 16:39:08 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 7.45s
+Aug 10, 2022 4:39:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3319
+[31merror[39m: Notes\Lists2.worksheet.sc:54:1: 
+Not found: de
+de
+^^
+2022.08.10 16:39:11 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 2.73s
+2022.08.10 16:39:13 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 1.21s
+2022.08.10 16:39:22 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.66s
+[31merror[39m: Notes\Lists2.worksheet.sc:55:5: 
+Found:    List[List[T]]
+Required: List[(T, Int)]
+    pack(xs)
+    ^^^^^^^^
+2022.08.10 16:39:51 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.55s
+[31merror[39m: Notes\Lists2.worksheet.sc:55:5: 
+Found:    List[List[T]]
+Required: List[(T, Int)]
+    pack(xs)
+    ^^^^^^^^
+2022.08.10 16:39:53 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.5s
+[31merror[39m: Notes\Lists2.worksheet.sc:55:5: 
+missing argument for parameter f of method map in class List: (f: List[T] => (T, Int)): List[(T, Int)]
+    pack(xs).map()
+    ^^^^^^^^^^^^^^
+2022.08.10 16:40:20 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.41s
+[31merror[39m: Notes\Lists2.worksheet.sc:55:23: illegal start of simple expression
+    pack(xs).map(x => )
+                      ^
+2022.08.10 16:40:22 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.17s
+[31merror[39m: Notes\Lists2.worksheet.sc: skipping file, the compiler produced no classfiles and reported no errors to explain what went wrong during compilation. Please report an issue to https://github.com/scalameta/mdoc/issues.
+2022.08.10 16:40:27 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.62s
+[31merror[39m: Notes\Lists2.worksheet.sc:57:14: ) expected but end of file found
+encode(elems)
+             ^
+2022.08.10 16:40:29 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 1.46s
+Aug 10, 2022 4:40:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3477
+[31merror[39m: Notes\Lists2.worksheet.sc: skipping file, the compiler produced no classfiles and reported no errors to explain what went wrong during compilation. Please report an issue to https://github.com/scalameta/mdoc/issues.
+2022.08.10 16:40:31 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.64s
+[31merror[39m: Notes\Lists2.worksheet.sc:55:24: 
+method apply in trait LinearSeqOps does not take type parameters
+    pack(xs).map(x => (x[0], x.length))
+                       ^^^^
+2022.08.10 16:40:34 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.4s
+[31merror[39m: Notes\Lists2.worksheet.sc:55:24: 
+method apply in trait LinearSeqOps does not take type parameters
+    pack(xs).map(x => (x[0], x.length)) 
+                       ^^^^
+2022.08.10 16:40:35 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.29s
+[31merror[39m: Notes\Lists2.worksheet.sc:55:24: 
+method apply in trait LinearSeqOps does not take type parameters
+    pack(xs).map(x => (x[0], x.size)) 
+                       ^^^^
+2022.08.10 16:40:40 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.22s
+2022.08.10 16:40:43 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.44s
+2022.08.10 16:40:53 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.53s
+2022.08.10 16:40:55 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.57s
+2022.08.10 16:40:59 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.66s
+2022.08.10 16:41:00 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.54s
+2022.08.10 16:41:03 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.53s
+2022.08.10 16:41:05 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.52s
+2022.08.10 16:41:10 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.56s
+2022.08.10 16:41:13 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.36s
+2022.08.10 16:41:18 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.5s
+2022.08.10 16:41:28 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.5s
+2022.08.10 16:41:31 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.49s
+2022.08.10 16:41:41 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.55s
+2022.08.10 16:41:51 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.5s
+2022.08.10 16:42:23 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.64s
+[31merror[39m: Notes\Lists2.worksheet.sc:55:24: 
+missing argument for parameter n of method apply in trait LinearSeqOps: (n: Int): T
+    pack(xs).map(x => (x(), x.size))           // Remember that 'map' method also returns a List by applying a
+                       ^^^
+2022.08.10 16:42:43 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.39s
+2022.08.10 16:42:46 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.47s
+2022.08.10 16:43:37 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.53s
+2022.08.10 16:43:38 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.55s
+2022.08.10 16:43:49 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.48s
+[31merror[39m: Notes\Lists2.worksheet.sc:56:5: 
+postfix operator `a` needs to be enabled
+by making the implicit value scala.language.postfixOps visible.
+----
+This can be achieved by adding the import clause 'import scala.language.postfixOps'
+or by setting the compiler option -language:postfixOps.
+See the Scaladoc for value scala.language.postfixOps for a discussion
+why the feature needs to be explicitly enabled.
+    applying a
+    ^^^^^^^^
+2022.08.10 16:43:54 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.3s
+[31merror[39m: Notes\Lists2.worksheet.sc:56:5: 
+postfix operator `a` needs to be enabled
+by making the implicit value scala.language.postfixOps visible.
+----
+This can be achieved by adding the import clause 'import scala.language.postfixOps'
+or by setting the compiler option -language:postfixOps.
+See the Scaladoc for value scala.language.postfixOps for a discussion
+why the feature needs to be explicitly enabled.
+    / /applying a
+    ^^^^^^^^^^^
+2022.08.10 16:43:57 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.25s
+2022.08.10 16:44:05 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.59s
+2022.08.10 16:44:09 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.46s
+[31merror[39m: Notes\Lists2.worksheet.sc:57:49: 
+Not found: which
+                                                which in this
+                                                ^^^^^
+2022.08.10 16:44:13 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.28s
+[31merror[39m: Notes\Lists2.worksheet.sc:57:63: outdent expected but case found
+                                                which in this case is a List of sub-lists from the pack method
+                                                              ^^^^
+2022.08.10 16:44:20 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.2s
+2022.08.10 16:44:22 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.39s
+2022.08.10 16:44:45 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.5s
+2022.08.10 16:44:47 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.63s
+[31merror[39m: Notes\Lists2.worksheet.sc:56:5: 
+postfix operator `by` needs to be enabled
+by making the implicit value scala.language.postfixOps visible.
+----
+This can be achieved by adding the import clause 'import scala.language.postfixOps'
+or by setting the compiler option -language:postfixOps.
+See the Scaladoc for value scala.language.postfixOps for a discussion
+why the feature needs to be explicitly enabled.
+    generated by 
+    ^^^^^^^^^
+2022.08.10 16:44:51 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.2s
+2022.08.10 16:44:54 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.5s
+2022.08.10 16:44:57 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.54s
+2022.08.10 16:45:01 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.52s
+[31merror[39m: Notes\Lists2.worksheet.sc:57:62: ; expected but , found
+                                                argument List, 
+                                                             ^
+2022.08.10 16:45:06 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.27s
+[31merror[39m: Notes\Lists2.worksheet.sc:57:62: ; expected but , found
+                                                argument List, which in this case is a List of sub-lists from the pack method
+                                                             ^
+2022.08.10 16:45:11 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.15s
+2022.08.10 16:45:13 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.56s
+[31merror[39m: Notes\Lists2.worksheet.sc:58:49: 
+Not found: the
+                                                the pack method
+                                                ^^^
+2022.08.10 16:45:16 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.2s
+2022.08.10 16:45:18 INFO  time: evaluated worksheet 'Lists2.worksheet.sc' in 0.52s
+Aug 10, 2022 11:19:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4067
+Aug 10, 2022 11:19:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4070
+Aug 10, 2022 11:19:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4069
+Aug 10, 2022 11:19:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4071
+Aug 10, 2022 11:19:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4073
+Aug 10, 2022 11:19:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4111
+Aug 10, 2022 11:21:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4275
+Aug 10, 2022 11:21:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4277
+Aug 10, 2022 11:21:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4278
+Aug 10, 2022 11:21:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4280
+Aug 10, 2022 11:21:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4282
+Aug 10, 2022 11:21:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4284
+Aug 10, 2022 11:21:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4281
+Aug 10, 2022 11:21:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4285
+Aug 10, 2022 11:21:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4287
+Aug 10, 2022 11:21:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4288
+Aug 10, 2022 11:21:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4302
+Aug 10, 2022 11:21:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4310
+Aug 10, 2022 11:21:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4311
+Aug 10, 2022 11:21:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4313
+Aug 10, 2022 11:21:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4314
+Aug 10, 2022 11:21:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4315
+Aug 10, 2022 11:23:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4437
+Aug 10, 2022 11:26:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4441
+Aug 10, 2022 11:27:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4484
+Aug 10, 2022 11:32:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4592
+Aug 10, 2022 11:34:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4794
+2022.08.11 02:06:43 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\Hello.scala
+2022.08.11 02:06:58 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\Hello.scala
+2022.08.11 02:07:06 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\Hello.scala
+2022.08.11 02:08:27 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\Hello.scala

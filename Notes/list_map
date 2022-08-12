@@ -1,0 +1,11 @@
+graph {
+	1 [label="f(x1)"];
+	2 [label="::"];
+	3 [label="f(xn)"];
+	4 [label="::"];
+	5 [label=Nil];
+    2 -- 1;
+    2 -- 4 [style="dotted"];
+    4 -- 3;
+    4 -- 5;
+}

@@ -1,3 +1,3 @@
 import graphviz
 
-graphviz.render('dot', 'svg', 'sample_list_5')
+graphviz.render('dot', 'svg', 'list_map')
