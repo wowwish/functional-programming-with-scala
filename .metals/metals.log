@@ -16703,3 +16703,1834 @@ WARNING: Unmatched cancel notification for request id 4794
 2022.08.11 02:06:58 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\Hello.scala
 2022.08.11 02:07:06 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\Hello.scala
 2022.08.11 02:08:27 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\Hello.scala
+2022.08.13 22:11:13 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\pdcdi\Documents\Scala\.metals\lsp.trace.json or C:\Users\pdcdi\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.08.13 22:11:15 INFO  logging to file C:\Users\pdcdi\Documents\Scala\.metals\metals.log
+2022.08.13 22:11:15 INFO  Started: Metals version 0.11.8 in workspace 'C:\Users\pdcdi\Documents\Scala' for client Visual Studio Code 1.70.1.
+2022.08.13 22:11:21 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.08.13 22:11:21 INFO  time: initialize in 6.26s
+2022.08.13 22:11:25 WARN  Build server is not auto-connectable.
+2022.08.13 22:11:25 WARN  no build tool detected in workspace 'C:\Users\pdcdi\Documents\Scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Aug 13, 2022 10:11:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Aug 13, 2022 10:11:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+[31merror[39m: Notes\poly.worksheet.sc:1:48: ; expected but : found
+class Polynom(nonZeroTerms: Map[(Int, Double)]):
+                                               ^
+2022.08.13 22:11:38 INFO  no build target found for C:\Users\pdcdi\Documents\Scala\Notes\poly.worksheet.sc. Using presentation compiler with project's scala-library version: 3.1.3
+Aug 13, 2022 10:11:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24
+2022.08.13 22:11:42 INFO  no build target found for C:\Users\pdcdi\Documents\Scala\Notes\poly.worksheet.sc. Using presentation compiler with project's scala-library version: 3.1.3
+2022.08.13 22:11:42 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 17s
+[31merror[39m: Notes\poly.worksheet.sc:1:29: 
+Not enough type arguments for Map[K, V]
+expected: [K, V]
+actual:   [(Int, Double)]
+class Polynom(nonZeroTerms: Map[(Int, Double)]):
+                            ^^^^^^^^^^^^^^^^^^
+[31merror[39m: Notes\poly.worksheet.sc:1:29: 
+Not enough type arguments for Map[K, V]
+expected: [K, V]
+actual:   [Tuple2[Int, Double]]
+class Polynom(nonZeroTerms: Map[(Int, Double)]):
+                            ^^^^^^^^^^^^^^^^^^
+[31merror[39m: Notes\poly.worksheet.sc:4:17: 
+Not found: non
+    def terms = non
+                ^^^
+2022.08.13 22:11:43 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.42s
+2022.08.13 22:11:44 INFO  time: code lens generation in 11s
+2022.08.13 22:11:44 INFO  time: code lens generation in 1.3s
+2022.08.13 22:11:44 INFO  time: code lens generation in 3.79s
+2022.08.13 22:11:44 INFO  time: code lens generation in 2.73s
+2022.08.13 22:11:44 INFO  time: code lens generation in 15s
+2022.08.13 22:11:44 INFO  time: code lens generation in 9.65s
+2022.08.13 22:11:44 INFO  time: code lens generation in 3.88s
+2022.08.13 22:11:44 INFO  time: code lens generation in 10s
+2022.08.13 22:11:44 INFO  time: code lens generation in 18s
+2022.08.13 22:11:44 INFO  time: code lens generation in 10s
+2022.08.13 22:11:44 INFO  time: code lens generation in 2.22s
+[31merror[39m: Notes\poly.worksheet.sc:1:29: 
+Not enough type arguments for Map[K, V]
+expected: [K, V]
+actual:   [(Int, Double)]
+class Polynom(nonZeroTerms: Map[(Int, Double)]):
+                            ^^^^^^^^^^^^^^^^^^
+[31merror[39m: Notes\poly.worksheet.sc:1:29: 
+Not enough type arguments for Map[K, V]
+expected: [K, V]
+actual:   [Tuple2[Int, Double]]
+class Polynom(nonZeroTerms: Map[(Int, Double)]):
+                            ^^^^^^^^^^^^^^^^^^
+2022.08.13 22:11:47 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.72s
+[31merror[39m: Notes\poly.worksheet.sc:1:29: 
+Not enough type arguments for Map[K, V]
+expected: [K, V]
+actual:   [(Int, Double)]
+class Polynom(nonZeroTerms: Map[(Int, Double)]):
+                            ^^^^^^^^^^^^^^^^^^
+[31merror[39m: Notes\poly.worksheet.sc:1:29: 
+Not enough type arguments for Map[K, V]
+expected: [K, V]
+actual:   [Tuple2[Int, Double]]
+class Polynom(nonZeroTerms: Map[(Int, Double)]):
+                            ^^^^^^^^^^^^^^^^^^
+2022.08.13 22:11:53 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.28s
+[31merror[39m: Notes\poly.worksheet.sc:1:29: 
+Not enough type arguments for Map[K, V]
+expected: [K, V]
+actual:   [(Int, Double)]
+class Polynom(nonZeroTerms: Map[(Int, Double)]):
+                            ^^^^^^^^^^^^^^^^^^
+[31merror[39m: Notes\poly.worksheet.sc:1:29: 
+Not enough type arguments for Map[K, V]
+expected: [K, V]
+actual:   [Tuple2[Int, Double]]
+class Polynom(nonZeroTerms: Map[(Int, Double)]):
+                            ^^^^^^^^^^^^^^^^^^
+2022.08.13 22:11:55 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.19s
+2022.08.13 22:12:02 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.19s
+2022.08.13 22:12:09 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.56s
+[31merror[39m: Notes\poly.worksheet.sc:6:9: Procedure syntax is not supported. Convert procedure `+` to method by adding `: Unit =`.
+    def +( )
+        ^
+2022.08.13 22:12:14 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.74s
+[31merror[39m: Notes\poly.worksheet.sc:6:9: Procedure syntax is not supported. Convert procedure `+` to method by adding `: Unit =`.
+    def + ( )
+        ^
+Aug 13, 2022 10:12:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 141
+Aug 13, 2022 10:12:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 139
+Aug 13, 2022 10:12:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 140
+Aug 13, 2022 10:12:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 142
+Aug 13, 2022 10:12:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 143
+Aug 13, 2022 10:12:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 144
+Aug 13, 2022 10:12:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 145
+2022.08.13 22:12:18 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 3.33s
+[31merror[39m: Notes\poly.worksheet.sc:6:20: identifier expected but ) found
+    def + (others: )
+                   ^
+2022.08.13 22:12:18 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.68s
+[31merror[39m: Notes\poly.worksheet.sc:6:19: identifier expected but ) found
+    def + (other: )
+                  ^
+2022.08.13 22:12:24 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.42s
+[31merror[39m: Notes\poly.worksheet.sc:6:9: Procedure syntax is not supported. Convert procedure `+` to method by adding `: Unit =`.
+    def + (other: Polynom)
+        ^
+2022.08.13 22:12:27 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.42s
+2022.08.13 22:12:37 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.44s
+[31merror[39m: Notes\poly.worksheet.sc:8:18: Procedure syntax is not supported. Convert procedure `toString` to method by adding `: Unit =`.
+    override def toString
+                 ^^^^^^^^
+2022.08.13 22:12:44 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.14s
+2022.08.14 09:25:01 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 6.92s
+2022.08.14 10:41:44 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.72s
+Aug 14, 2022 10:42:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 279
+Aug 14, 2022 10:42:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 290
+Aug 14, 2022 10:42:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 291
+2022.08.14 10:42:08 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 2.21s
+Aug 14, 2022 10:42:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 319
+2022.08.14 10:42:19 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.38s
+Aug 14, 2022 10:43:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 348
+2022.08.14 10:43:46 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.73s
+2022.08.14 10:43:49 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.43s
+2022.08.14 10:43:50 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.32s
+2022.08.14 10:43:53 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.26s
+2022.08.14 10:43:57 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.28s
+2022.08.14 10:44:20 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.58s
+2022.08.14 10:44:20 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.46s
+2022.08.14 10:44:38 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.4s
+Aug 14, 2022 10:45:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 478
+Aug 14, 2022 10:45:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 484
+Aug 14, 2022 10:45:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 480
+[31merror[39m: Notes\poly.worksheet.sc:13:13: 
+missing argument for parameter nonZeroTerms of constructor Polynom in class Polynom: (nonZeroTerms: Map[Int, Double]): App.this.Polynom
+    val x = Polynom()
+            ^^^^^^^^^
+2022.08.14 10:45:10 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.77s
+[31merror[39m: Notes\poly.worksheet.sc:13:33: illegal start of simple expression
+    val x = Polynom(Map(0 -> 2, ))
+                                ^
+2022.08.14 10:45:15 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.65s
+Aug 14, 2022 10:45:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 526
+Aug 14, 2022 10:45:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 529
+[31merror[39m: Notes\poly.worksheet.sc:13:41: illegal start of simple expression
+    val x = Polynom(Map(0 -> 2, 1 -> 3, ))
+                                        ^
+2022.08.14 10:45:21 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.22s
+2022.08.14 10:45:23 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.99s
+2022.08.14 10:45:42 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.03s
+2022.08.14 10:45:43 ERROR scalafmt: <input>:1: error: [dialect scala213] ; expected but : found
+class Polynom(nonZeroTerms: Map[Int, Double]):
+                                             ^
+2022.08.14 10:45:43 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.4s
+Aug 14, 2022 10:45:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 566
+Aug 14, 2022 10:45:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 564
+Aug 14, 2022 10:45:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 565
+2022.08.14 10:46:03 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 3.06s
+2022.08.14 10:46:07 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.7s
+2022.08.14 10:46:10 INFO  time: code lens generation in 6.33s
+2022.08.14 10:46:10 INFO  time: code lens generation in 1.62s
+2022.08.14 10:46:10 INFO  time: code lens generation in 5.68s
+2022.08.14 10:46:11 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.64s
+[31merror[39m: Notes\poly.worksheet.sc:10:28: illegal start of simple expression
+    override def toString = 
+                           ^
+2022.08.14 10:47:18 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.33s
+[31merror[39m: Notes\poly.worksheet.sc:11:7: 
+Not found: d
+      d
+      ^
+2022.08.14 10:47:19 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.54s
+[31merror[39m: Notes\poly.worksheet.sc:10:28: illegal start of simple expression
+    override def toString = 
+                           ^
+2022.08.14 10:47:20 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.55s
+[31merror[39m: Notes\poly.worksheet.sc:11:24: illegal start of simple expression
+      val termStrings = 
+                       ^
+2022.08.14 10:47:29 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.44s
+[31merror[39m: Notes\poly.worksheet.sc:12:16: <- expected but , found
+        for exp, coef
+               ^
+2022.08.14 10:47:36 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.45s
+[31merror[39m: Notes\poly.worksheet.sc:12:16: <- expected but , found
+        for exp, coeff
+               ^
+2022.08.14 10:47:37 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.31s
+[31merror[39m: Notes\poly.worksheet.sc:12:16: <- expected but , found
+        for exp, coeff)
+               ^
+2022.08.14 10:47:38 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.28s
+[31merror[39m: Notes\poly.worksheet.sc:12:28: illegal start of simple expression
+        for (exp, coeff) <- 
+                           ^
+2022.08.14 10:47:42 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.32s
+[31merror[39m: Notes\poly.worksheet.sc:12:48: illegal start of simple expression
+        for (exp, coeff) <- terms.toList.sorted
+                                               ^
+2022.08.14 10:47:50 INFO  time: code lens generation in 1.17s
+2022.08.14 10:47:50 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.23s
+[31merror[39m: Notes\poly.worksheet.sc:12:56: illegal start of simple expression
+        for (exp, coeff) <- terms.toList.sorted.reverse
+                                                       ^
+2022.08.14 10:47:55 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.21s
+[31merror[39m: Notes\poly.worksheet.sc:12:56: illegal start of simple expression
+        for (exp, coeff) <- terms.toList.sorted.reverse                 // Get the 
+                                                       ^
+2022.08.14 10:48:01 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.4s
+[31merror[39m: Notes\poly.worksheet.sc:12:56: illegal start of simple expression
+        for (exp, coeff) <- terms.toList.sorted.reverse                 // Get the exponent, coefficient pair 
+                                                       ^
+2022.08.14 10:48:07 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.25s
+[31merror[39m: Notes\poly.worksheet.sc:12:56: illegal start of simple expression
+        for (exp, coeff) <- terms.toList.sorted.reverse      // Get the exponent, coefficient pair 
+                                                       ^
+2022.08.14 10:48:15 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.27s
+[31merror[39m: Notes\poly.worksheet.sc:12:56: illegal start of simple expression
+        for (exp, coeff) <- terms.toList.sorted.reverse      // Get the exponent, coefficient pair from the 
+                                                       ^
+2022.08.14 10:48:17 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.27s
+[31merror[39m: Notes\poly.worksheet.sc:12:56: illegal start of simple expression
+        for (exp, coeff) <- terms.toList.sorted.reverse      // Get the exponent, coefficient pair from the sorted, reversed list of terms'
+                                                       ^
+2022.08.14 10:48:25 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.22s
+[31merror[39m: Notes\poly.worksheet.sc:12:56: illegal start of simple expression
+        for (exp, coeff) <- terms.toList.sorted.reverse      // Get the exponent, coefficient pair from the sorted, reversed list of 'terms'
+                                                       ^
+2022.08.14 10:48:27 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.3s
+[31merror[39m: Notes\poly.worksheet.sc:12:56: illegal start of simple expression
+        for (exp, coeff) <- terms.toList.sorted.reverse      // Get the exponent, coefficient pair from the , reversed list of 'terms'
+                                                       ^
+2022.08.14 10:48:36 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.23s
+[31merror[39m: Notes\poly.worksheet.sc:12:56: illegal start of simple expression
+        for (exp, coeff) <- terms.toList.sorted.reverse      // Get the exponent, coefficient pair from the descending order list of 'terms'
+                                                       ^
+2022.08.14 10:48:43 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.49s
+[31merror[39m: Notes\poly.worksheet.sc:12:56: illegal start of simple expression
+        for (exp, coeff) <- terms.toList.sorted.reverse      // Get the exponent, coefficient pair from the 'exp' descending order list of 'terms'
+                                                       ^
+2022.08.14 10:49:00 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.34s
+[31merror[39m: Notes\poly.worksheet.sc:12:56: illegal start of simple expression
+        for (exp, coeff) <- terms.toList.sorted.reverse      // Get the exponent, coefficient pair from the 'exp' descending order list of 'terms'
+                                                       ^
+2022.08.14 10:49:08 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.32s
+[31merror[39m: Notes\poly.worksheet.sc:17:1: illegal start of simple expression
+val x = Polynom(Map(0 -> 2, 1 -> 3, 2 -> 1))
+^^^
+2022.08.14 10:49:12 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.64s
+[31merror[39m: Notes\poly.worksheet.sc:17:1: illegal start of simple expression
+val x = Polynom(Map(0 -> 2, 1 -> 3, 2 -> 1))
+^^^
+2022.08.14 10:49:14 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1s
+Aug 14, 2022 10:49:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 972
+[31merror[39m: Notes\poly.worksheet.sc:14:25: illegal start of simple expression
+          val exponent = 
+                        ^
+2022.08.14 10:49:19 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.64s
+[31merror[39m: Notes\poly.worksheet.sc:10:18: 
+error overriding method toString in class Any of type (): String;
+  method toString of type => Unit has incompatible type
+    override def toString = 
+                 ^
+2022.08.14 10:49:23 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.59s
+[31merror[39m: Notes\poly.worksheet.sc:10:18: 
+error overriding method toString in class Any of type (): String;
+  method toString of type => Unit has incompatible type
+    override def toString = 
+                 ^
+2022.08.14 10:49:23 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.31s
+2022.08.14 10:49:24 INFO  file:///C:/Users/pdcdi/Documents/Scala/Notes/poly.worksheet.sc:10:18: stale mdoc error:
+error overriding method toString in class Any of type (): String;
+  method toString of type => Unit has incompatible type
+    override def toString = 
+                 ^
+2022.08.14 10:49:24 INFO  file:///C:/Users/pdcdi/Documents/Scala/Notes/poly.worksheet.sc:10:18: stale mdoc error:
+error overriding method toString in class Any of type (): String;
+  method toString of type => Unit has incompatible type
+    override def toString = 
+                 ^
+[31merror[39m: Notes\poly.worksheet.sc:10:18: 
+error overriding method toString in class Any of type (): String;
+  method toString of type => Unit has incompatible type
+    override def toString = 
+                 ^
+2022.08.14 10:49:26 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.47s
+[31merror[39m: Notes\poly.worksheet.sc:10:18: 
+error overriding method toString in class Any of type (): String;
+  method toString of type => Unit has incompatible type
+    override def toString = 
+                 ^
+2022.08.14 10:49:29 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.38s
+[31merror[39m: Notes\poly.worksheet.sc:10:18: 
+error overriding method toString in class Any of type (): String;
+  method toString of type => Unit has incompatible type
+    override def toString = 
+                 ^
+2022.08.14 10:49:37 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.35s
+[31merror[39m: Notes\poly.worksheet.sc:10:18: 
+error overriding method toString in class Any of type (): String;
+  method toString of type => Unit has incompatible type
+    override def toString = 
+                 ^
+2022.08.14 10:49:49 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.69s
+2022.08.14 10:49:52 INFO  file:///C:/Users/pdcdi/Documents/Scala/Notes/poly.worksheet.sc:10:18: stale mdoc error:
+error overriding method toString in class Any of type (): String;
+  method toString of type => Unit has incompatible type
+    override def toString = 
+                 ^
+2022.08.14 10:49:52 INFO  file:///C:/Users/pdcdi/Documents/Scala/Notes/poly.worksheet.sc:10:18: stale mdoc error:
+error overriding method toString in class Any of type (): String;
+  method toString of type => Unit has incompatible type
+    override def toString = 
+                 ^
+2022.08.14 10:49:52 INFO  file:///C:/Users/pdcdi/Documents/Scala/Notes/poly.worksheet.sc:10:18: stale mdoc error:
+error overriding method toString in class Any of type (): String;
+  method toString of type => Unit has incompatible type
+    override def toString = 
+                 ^
+2022.08.14 10:49:52 INFO  file:///C:/Users/pdcdi/Documents/Scala/Notes/poly.worksheet.sc:10:18: stale mdoc error:
+error overriding method toString in class Any of type (): String;
+  method toString of type => Unit has incompatible type
+    override def toString = 
+                 ^
+2022.08.14 10:49:53 INFO  file:///C:/Users/pdcdi/Documents/Scala/Notes/poly.worksheet.sc:10:18: stale mdoc error:
+error overriding method toString in class Any of type (): String;
+  method toString of type => Unit has incompatible type
+    override def toString = 
+                 ^
+[31merror[39m: Notes\poly.worksheet.sc:15:15: unclosed string literal
+          s"${"
+              ^
+2022.08.14 10:49:54 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.49s
+[31merror[39m: Notes\poly.worksheet.sc:15:15: 
+Not found: coefficient
+          s"${coefficient}"
+              ^^^^^^^^^^^
+[31merror[39m: Notes\poly.worksheet.sc:15:15: 
+Not found: coefficient
+          s"${coefficient}"
+              ^^^^^^^^^^^
+2022.08.14 10:49:57 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.63s
+2022.08.14 10:49:58 INFO  file:///C:/Users/pdcdi/Documents/Scala/Notes/poly.worksheet.sc:15:15: stale mdoc error:
+Not found: coefficient
+          s"${coefficient}"
+              ^^^^^^^^^^^
+2022.08.14 10:49:58 INFO  file:///C:/Users/pdcdi/Documents/Scala/Notes/poly.worksheet.sc:15:15: stale mdoc error:
+Not found: coefficient
+          s"${coefficient}"
+              ^^^^^^^^^^^
+2022.08.14 10:49:58 INFO  file:///C:/Users/pdcdi/Documents/Scala/Notes/poly.worksheet.sc:15:15: stale mdoc error:
+Not found: coefficient
+          s"${coefficient}"
+              ^^^^^^^^^^^
+2022.08.14 10:49:58 INFO  file:///C:/Users/pdcdi/Documents/Scala/Notes/poly.worksheet.sc:15:15: stale mdoc error:
+Not found: coefficient
+          s"${coefficient}"
+              ^^^^^^^^^^^
+2022.08.14 10:49:58 INFO  file:///C:/Users/pdcdi/Documents/Scala/Notes/poly.worksheet.sc:15:15: stale mdoc error:
+Not found: coefficient
+          s"${coefficient}"
+              ^^^^^^^^^^^
+2022.08.14 10:49:58 INFO  file:///C:/Users/pdcdi/Documents/Scala/Notes/poly.worksheet.sc:15:15: stale mdoc error:
+Not found: coefficient
+          s"${coefficient}"
+              ^^^^^^^^^^^
+2022.08.14 10:49:58 INFO  file:///C:/Users/pdcdi/Documents/Scala/Notes/poly.worksheet.sc:15:15: stale mdoc error:
+Not found: coefficient
+          s"${coefficient}"
+              ^^^^^^^^^^^
+2022.08.14 10:49:58 INFO  file:///C:/Users/pdcdi/Documents/Scala/Notes/poly.worksheet.sc:15:15: stale mdoc error:
+Not found: coefficient
+          s"${coefficient}"
+              ^^^^^^^^^^^
+[31merror[39m: Notes\poly.worksheet.sc:15:15: 
+Not found: coefficient
+          s"${coefficient}${}"
+              ^^^^^^^^^^^
+[31merror[39m: Notes\poly.worksheet.sc:15:15: 
+Not found: coefficient
+          s"${coefficient}${}"
+              ^^^^^^^^^^^
+2022.08.14 10:50:01 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.84s
+[31merror[39m: Notes\poly.worksheet.sc:15:15: 
+Not found: coefficient
+          s"${coefficient}${exponent}"
+              ^^^^^^^^^^^
+[31merror[39m: Notes\poly.worksheet.sc:15:15: 
+Not found: coefficient
+          s"${coefficient}${exponent}"
+              ^^^^^^^^^^^
+2022.08.14 10:50:06 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.45s
+[31merror[39m: Notes\poly.worksheet.sc:10:18: 
+error overriding method toString in class Any of type (): String;
+  method toString of type => Unit has incompatible type
+    override def toString = 
+                 ^
+2022.08.14 10:50:09 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.35s
+[31merror[39m: Notes\poly.worksheet.sc:10:18: 
+error overriding method toString in class Any of type (): String;
+  method toString of type => Unit has incompatible type
+    override def toString = 
+                 ^
+2022.08.14 10:50:20 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.56s
+[31merror[39m: Notes\poly.worksheet.sc:10:18: 
+error overriding method toString in class Any of type (): String;
+  method toString of type => Unit has incompatible type
+    override def toString = 
+                 ^
+2022.08.14 10:50:30 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.45s
+Aug 14, 2022 10:50:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1154
+[31merror[39m: 
+poly.worksheet.sc:22 (mdoc generated code) 
+ Overloaded or recursive method toString needs return type
+          toString
+
+
+2022.08.14 10:50:32 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.61s
+[31merror[39m: Notes\poly.worksheet.sc:16:19: identifier expected but outdent found
+      termStrings.
+                  ^
+2022.08.14 10:50:40 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.63s
+[31merror[39m: Notes\poly.worksheet.sc:16:7: 
+value makeString is not a member of List[String] - did you mean termStrings.mkString?
+      termStrings.makeString(" + ")
+      ^^^^^^^^^^^^^^^^^^^^^^
+2022.08.14 10:50:47 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.37s
+2022.08.14 10:50:54 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.57s
+2022.08.14 10:51:01 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.36s
+Aug 14, 2022 10:51:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1281
+Aug 14, 2022 10:51:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1282
+Aug 14, 2022 10:51:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1283
+2022.08.14 10:51:55 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 5.87s
+2022.08.14 10:52:00 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.07s
+2022.08.14 10:52:45 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.25s
+Aug 14, 2022 11:14:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1327
+Aug 14, 2022 11:14:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1328
+Aug 14, 2022 11:14:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1330
+Aug 14, 2022 11:14:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1335
+2022.08.14 11:14:53 ERROR scalafmt: <input>:1: error: [dialect scala213] ; expected but : found
+class Polynom(nonZeroTerms: Map[Int, Double]):
+                                             ^
+2022.08.14 11:15:10 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 4.34s
+2022.08.14 11:15:10 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.75s
+2022.08.14 11:15:14 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 3.27s
+Aug 14, 2022 11:15:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1379
+[31merror[39m: Notes\poly.worksheet.sc:22:1: illegal start of simple expression
+
+^
+2022.08.14 11:15:25 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.93s
+Aug 14, 2022 11:15:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1399
+2022.08.14 11:15:37 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.79s
+[31merror[39m: Notes\poly.worksheet.sc:16:15: illegal start of simple expression
+          if ()
+              ^
+2022.08.14 11:15:56 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.53s
+2022.08.14 11:16:03 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.76s
+Aug 14, 2022 11:16:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1468
+[31merror[39m: Notes\poly.worksheet.sc:17:7: then expected but identifier found
+      termStrings.mkString(" + ")          // The mkString() method is utilized to display all the elements of the list in a string along with a separator.
+      ^^^^^^^^^^^
+2022.08.14 11:16:08 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.83s
+[31merror[39m: Notes\poly.worksheet.sc:16:23: then expected but outdent found
+      if terms.isEmpty)
+                      ^
+2022.08.14 11:16:15 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.93s
+[33mwarning[39m: Notes\poly.worksheet.sc:16:26: 
+A pure expression does nothing in statement position; you may be omitting necessary parentheses
+      if (terms.isEmpty) ""
+                         ^^
+2022.08.14 11:16:19 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.62s
+[33mwarning[39m: Notes\poly.worksheet.sc:16:26: 
+A pure expression does nothing in statement position; you may be omitting necessary parentheses
+      if (terms.isEmpty) "0"
+                         ^^^
+2022.08.14 11:16:20 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.49s
+2022.08.14 11:16:25 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.32s
+[31merror[39m: Notes\poly.worksheet.sc:22:5: 
+Double definition:
+val x: App.this.Polynom in class App at line 26 and
+val x: App.this.Polynom in class App at line 34
+
+val x = Polynom(Map(0 -> 2, 1 -> 3, 2 -> 1))
+    ^
+2022.08.14 12:08:11 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.76s
+2022.08.14 12:08:11 INFO  file:///C:/Users/pdcdi/Documents/Scala/Notes/poly.worksheet.sc:22:5: stale mdoc error:
+Double definition:
+val x: App.this.Polynom in class App at line 26 and
+val x: App.this.Polynom in class App at line 34
+
+val x = Polynom(Map(0 -> 2, 1 -> 3, 2 -> 1))
+    ^
+2022.08.14 12:08:11 INFO  file:///C:/Users/pdcdi/Documents/Scala/Notes/poly.worksheet.sc:22:5: stale mdoc error:
+Double definition:
+val x: App.this.Polynom in class App at line 26 and
+val x: App.this.Polynom in class App at line 34
+
+val x = Polynom(Map(0 -> 2, 1 -> 3, 2 -> 1))
+    ^
+[31merror[39m: Notes\poly.worksheet.sc:22:5: 
+Double definition:
+val x: App.this.Polynom in class App at line 26 and
+val x: App.this.Polynom in class App at line 34
+
+val x = Polynom(Map(0 -> 2, 1 -> -3, 2 -> 1))
+    ^
+2022.08.14 12:08:14 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.49s
+[31merror[39m: Notes\poly.worksheet.sc:22:6: illegal start of simple pattern
+val  = Polynom(Map(0 -> 2, 1 -> -3, 2 -> 1))
+     ^
+2022.08.14 12:08:20 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.77s
+2022.08.14 12:08:22 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.69s
+2022.08.14 12:08:29 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.85s
+2022.08.14 12:08:30 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.49s
+2022.08.14 12:08:32 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.92s
+2022.08.14 12:08:51 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.72s
+2022.08.14 12:08:54 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.33s
+[31merror[39m: Notes\poly.worksheet.sc:11:5: illegal start of simple expression
+    override def toString = 
+    ^^^^^^^^
+Aug 14, 2022 12:09:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1646
+Aug 14, 2022 12:09:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1645
+Aug 14, 2022 12:09:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1647
+2022.08.14 12:09:59 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 5.36s
+[31merror[39m: Notes\poly.worksheet.sc:8:24: illegal start of simple expression
+        Polynom(terms, )
+                       ^
+2022.08.14 12:10:01 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.88s
+2022.08.14 12:10:07 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.12s
+[31merror[39m: Notes\poly.worksheet.sc:8:26: 
+None of the overloaded alternatives of method map in trait IterableOps with types
+ [B](f: ((Int, Double)) => B): scala.collection.immutable.Iterable[B]
+ [K2, V2](f: ((Int, Double)) => (K2, V2)): Map[K2, V2]
+match arguments ()
+        Polynom(terms ++ other.terms.map())
+                         ^^^^^^^^^^^^^^^
+2022.08.14 12:10:15 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.8s
+Aug 14, 2022 12:10:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1722
+[31merror[39m: Notes\poly.worksheet.sc:8:43: 
+Not found: exp
+        Polynom(terms ++ other.terms.map((exp, coeff) ))
+                                          ^^^
+[31merror[39m: Notes\poly.worksheet.sc:8:48: 
+Not found: coeff
+        Polynom(terms ++ other.terms.map((exp, coeff) ))
+                                               ^^^^^
+[31merror[39m: Notes\poly.worksheet.sc:8:43: 
+Not found: exp
+        Polynom(terms ++ other.terms.map((exp, coeff) ))
+                                          ^^^
+[31merror[39m: Notes\poly.worksheet.sc:8:48: 
+Not found: coeff
+        Polynom(terms ++ other.terms.map((exp, coeff) ))
+                                               ^^^^^
+[31merror[39m: Notes\poly.worksheet.sc:8:42: 
+Found:    (Any, Any)
+Required: ((Int, Double)) => <?>
+        Polynom(terms ++ other.terms.map((exp, coeff) ))
+                                         ^^^^^^^^^^^^
+2022.08.14 12:10:22 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.2s
+[31merror[39m: Notes\poly.worksheet.sc:8:64: illegal start of simple expression
+        Polynom(terms ++ other.terms.map((exp, coeff) => (exp, )))
+                                                               ^
+2022.08.14 12:10:30 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 2.18s
+[31merror[39m: Notes\poly.worksheet.sc:8:70: 
+Not found: ex
+        Polynom(terms ++ other.terms.map((exp, coeff) => (exp, terms(ex))))
+                                                                     ^^
+[31merror[39m: Notes\poly.worksheet.sc:8:70: 
+Not found: ex
+        Polynom(terms ++ other.terms.map((exp, coeff) => (exp, terms(ex))))
+                                                                     ^^
+[31merror[39m: Notes\poly.worksheet.sc:8:70: 
+Not found: ex
+        Polynom(terms ++ other.terms.map((exp, coeff) => (exp, terms(ex))))
+                                                                     ^^
+[31merror[39m: Notes\poly.worksheet.sc:8:70: 
+Not found: ex
+        Polynom(terms ++ other.terms.map((exp, coeff) => (exp, terms(ex))))
+                                                                     ^^
+2022.08.14 12:10:32 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.88s
+2022.08.14 12:10:35 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 2.25s
+2022.08.14 12:10:42 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.62s
+Aug 14, 2022 12:11:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1821
+Aug 14, 2022 12:11:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1825
+2022.08.14 12:11:13 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 3.39s
+2022.08.14 12:11:35 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.25s
+2022.08.14 12:11:37 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.36s
+Aug 14, 2022 12:12:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1897
+Aug 14, 2022 12:12:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1918
+Aug 14, 2022 12:12:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1919
+2022.08.14 12:12:43 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 3.73s
+2022.08.14 12:12:47 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.28s
+2022.08.14 12:12:52 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.1s
+Aug 14, 2022 12:12:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1958
+Aug 14, 2022 12:12:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1963
+2022.08.14 12:12:56 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 3.78s
+[31merror[39m: Notes\poly.worksheet.sc:6:83: = expected but \n\n found
+    // creating a map with dfault value, out of the inout argument 'nonZeroTerms'
+                                                                                  ^
+2022.08.14 12:12:56 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.3s
+Aug 14, 2022 12:13:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1981
+[31merror[39m: Notes\poly.worksheet.sc:7:83: = expected but \n\n found
+    // creating a map with dfault value, out of the inout argument 'nonZeroTerms'
+                                                                                  ^
+2022.08.14 12:13:29 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.06s
+[31merror[39m: Notes\poly.worksheet.sc:7:83: = expected but \n\n found
+    // creating a map with dfault value, out of the inout argument 'nonZeroTerms'
+                                                                                  ^
+2022.08.14 12:13:34 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.77s
+[31merror[39m: Notes\poly.worksheet.sc:5:26: illegal literal type (), use Unit instead
+    def this(bindings: ())
+                         ^
+Aug 14, 2022 12:22:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2053
+Aug 14, 2022 12:22:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2055
+Aug 14, 2022 12:22:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2054
+2022.08.14 12:22:47 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 7.05s
+[31merror[39m: Notes\poly.worksheet.sc:7:83: = expected but \n\n found
+    // creating a map with dfault value, out of the inout argument 'nonZeroTerms'
+                                                                                  ^
+2022.08.14 12:22:47 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.15s
+Aug 14, 2022 12:23:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2080
+[31merror[39m: Notes\poly.worksheet.sc:5:46: ; expected but . found
+    def this(bindings: (Int, Double)*) = this.bindings.toMap.
+                                             ^
+2022.08.14 12:23:06 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.02s
+[31merror[39m: Notes\poly.worksheet.sc:5:46: ; expected but . found
+    def this(bindings: (Int, Double)*) = this.bindings.toMap.withDefaultValue(0)
+                                             ^
+2022.08.14 12:23:09 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.22s
+[31merror[39m: Notes\poly.worksheet.sc:5:42: this expected but identifier found
+    def this(bindings: (Int, Double)*) = thisbindings.toMap.withDefaultValue(0)
+                                         ^^^^^^^^^^^^
+2022.08.14 12:23:15 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.23s
+[31merror[39m: Notes\poly.worksheet.sc:8:5: ) expected but val found
+    val terms = nonZeroTerms.withDefaultValue(0.0)
+    ^^^
+2022.08.14 12:23:20 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.3s
+[31merror[39m: Notes\poly.worksheet.sc:5:47: 
+None of the overloaded alternatives of constructor Polynom in class Polynom with types
+ (bindings: (Int, Double)*): App.this.Polynom
+ (nonZeroTerms: Map[Int, Double]): App.this.Polynom
+match arguments (Map[Int, AnyVal])
+    def this(bindings: (Int, Double)*) = this(bindings.toMap.withDefaultValue(0))
+                                              ^
+[31merror[39m: Notes\poly.worksheet.sc:26:9: 
+None of the overloaded alternatives of method apply in object Polynom with types
+ (bindings: (Int, Double)*): App.this.Polynom
+ (nonZeroTerms: Map[Int, Double]): App.this.Polynom
+match arguments (Map[Int, Int])
+val x = Polynom(Map(0 -> 2, 1 -> 3, 2 -> 1))
+        ^^^^^^^
+[31merror[39m: Notes\poly.worksheet.sc:27:9: 
+None of the overloaded alternatives of method apply in object Polynom with types
+ (bindings: (Int, Double)*): App.this.Polynom
+ (nonZeroTerms: Map[Int, Double]): App.this.Polynom
+match arguments (Map[Int, Int])
+val y = Polynom(Map(0 -> 2, 1 -> -3, 2 -> 1))
+        ^^^^^^^
+2022.08.14 12:23:23 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.42s
+[31merror[39m: Notes\poly.worksheet.sc:26:9: 
+None of the overloaded alternatives of method apply in object Polynom with types
+ (bindings: (Int, Double)*): App.this.Polynom
+ (nonZeroTerms: Map[Int, Double]): App.this.Polynom
+match arguments (Map[Int, Int])
+val x = Polynom(Map(0 -> 2, 1 -> 3, 2 -> 1))
+        ^^^^^^^
+[31merror[39m: Notes\poly.worksheet.sc:27:9: 
+None of the overloaded alternatives of method apply in object Polynom with types
+ (bindings: (Int, Double)*): App.this.Polynom
+ (nonZeroTerms: Map[Int, Double]): App.this.Polynom
+match arguments (Map[Int, Int])
+val y = Polynom(Map(0 -> 2, 1 -> -3, 2 -> 1))
+        ^^^^^^^
+2022.08.14 12:24:08 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 2.64s
+[31merror[39m: Notes\poly.worksheet.sc:26:40: ; expected but ) found
+val x = Polynom(0 -> 2, 1 -> 3, 2 -> 1))
+                                       ^
+2022.08.14 12:24:25 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.06s
+[31merror[39m: Notes\poly.worksheet.sc:27:9: 
+None of the overloaded alternatives of method apply in object Polynom with types
+ (bindings: (Int, Double)*): App.this.Polynom
+ (nonZeroTerms: Map[Int, Double]): App.this.Polynom
+match arguments (Map[Int, Int])
+val y = Polynom(Map(0 -> 2, 1 -> -3, 2 -> 1))
+        ^^^^^^^
+2022.08.14 12:24:25 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.22s
+[31merror[39m: Notes\poly.worksheet.sc:28:1: ) expected but val found
+val z = Polynom(Map())
+^^^
+2022.08.14 12:24:27 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.28s
+2022.08.14 12:24:29 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.54s
+2022.08.14 12:24:33 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.33s
+2022.08.14 12:25:13 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 3.69s
+2022.08.14 12:25:19 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.93s
+2022.08.14 12:25:20 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.75s
+2022.08.14 12:25:22 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.36s
+2022.08.14 12:25:24 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.42s
+2022.08.14 12:25:30 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.27s
+2022.08.14 12:25:41 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.3s
+2022.08.14 12:25:59 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.43s
+2022.08.14 12:26:07 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1s
+2022.08.14 12:26:09 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.4s
+[31merror[39m: Notes\poly.worksheet.sc:25:12: 
+None of the overloaded alternatives of method replace in class String with types
+ (x$0: CharSequence, x$1: CharSequence): String
+ (x$0: Char, x$1: Char): String
+match arguments ()
+      else termStrings.mkString(" + ").replace()          
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.08.14 12:26:33 INFO  file:///C:/Users/pdcdi/Documents/Scala/Notes/poly.worksheet.sc:25:12: stale mdoc error:
+None of the overloaded alternatives of method replace in class String with types
+ (x$0: CharSequence, x$1: CharSequence): String
+ (x$0: Char, x$1: Char): String
+match arguments ()
+      else termStrings.mkString(" + ").replace()          
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.08.14 12:26:33 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.56s
+2022.08.14 12:26:33 INFO  file:///C:/Users/pdcdi/Documents/Scala/Notes/poly.worksheet.sc:25:12: stale mdoc error:
+None of the overloaded alternatives of method replace in class String with types
+ (x$0: CharSequence, x$1: CharSequence): String
+ (x$0: Char, x$1: Char): String
+match arguments ()
+      else termStrings.mkString(" + ").replace()          
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: Notes\poly.worksheet.sc:25:48: unclosed character literal
+      else termStrings.mkString(" + ").replace('')          
+                                               ^
+2022.08.14 12:26:34 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.25s
+[31merror[39m: Notes\poly.worksheet.sc:25:51: unclosed character literal
+      else termStrings.mkString(" + ").replace('+ ')          
+                                                  ^
+2022.08.14 12:26:35 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.33s
+[31merror[39m: Notes\poly.worksheet.sc:25:52: unclosed character literal
+      else termStrings.mkString(" + ").replace('+ -')          
+                                                   ^
+2022.08.14 12:26:36 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.15s
+[31merror[39m: Notes\poly.worksheet.sc:25:52: unclosed character literal
+      else termStrings.mkString(" + ").replace('+ -', '-')          
+                                                   ^
+2022.08.14 12:26:40 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.19s
+[31merror[39m: Notes\poly.worksheet.sc:25:51: unclosed character literal
+      else termStrings.mkString(" + ").replace(+ -', '-')          
+                                                  ^
+2022.08.14 12:26:42 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.21s
+[31merror[39m: Notes\poly.worksheet.sc:25:48: unclosed string literal
+      else termStrings.mkString(" + ").replace("+ -', '-')          
+                                               ^
+2022.08.14 12:26:43 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.12s
+[31merror[39m: Notes\poly.worksheet.sc:25:53: unclosed string literal
+      else termStrings.mkString(" + ").replace("+ -"", '-')          
+                                                    ^
+2022.08.14 12:26:45 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.21s
+[31merror[39m: Notes\poly.worksheet.sc:25:12: 
+None of the overloaded alternatives of method replace in class String with types
+ (x$0: CharSequence, x$1: CharSequence): String
+ (x$0: Char, x$1: Char): String
+match arguments (("+ -" : String), ('-' : Char))
+      else termStrings.mkString(" + ").replace("+ -", '-')          
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.08.14 12:26:47 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.21s
+2022.08.14 12:26:47 INFO  file:///C:/Users/pdcdi/Documents/Scala/Notes/poly.worksheet.sc:25:12: stale mdoc error:
+None of the overloaded alternatives of method replace in class String with types
+ (x$0: CharSequence, x$1: CharSequence): String
+ (x$0: Char, x$1: Char): String
+match arguments (("+ -" : String), ('-' : Char))
+      else termStrings.mkString(" + ").replace("+ -", '-')          
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.08.14 12:26:47 INFO  file:///C:/Users/pdcdi/Documents/Scala/Notes/poly.worksheet.sc:25:12: stale mdoc error:
+None of the overloaded alternatives of method replace in class String with types
+ (x$0: CharSequence, x$1: CharSequence): String
+ (x$0: Char, x$1: Char): String
+match arguments (("+ -" : String), ('-' : Char))
+      else termStrings.mkString(" + ").replace("+ -", '-')          
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.08.14 12:26:47 INFO  file:///C:/Users/pdcdi/Documents/Scala/Notes/poly.worksheet.sc:25:12: stale mdoc error:
+None of the overloaded alternatives of method replace in class String with types
+ (x$0: CharSequence, x$1: CharSequence): String
+ (x$0: Char, x$1: Char): String
+match arguments (("+ -" : String), ('-' : Char))
+      else termStrings.mkString(" + ").replace("+ -", '-')          
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.08.14 12:26:48 INFO  file:///C:/Users/pdcdi/Documents/Scala/Notes/poly.worksheet.sc:25:12: stale mdoc error:
+None of the overloaded alternatives of method replace in class String with types
+ (x$0: CharSequence, x$1: CharSequence): String
+ (x$0: Char, x$1: Char): String
+match arguments (("+ -" : String), ('-' : Char))
+      else termStrings.mkString(" + ").replace("+ -", '-')          
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.08.14 12:26:49 INFO  file:///C:/Users/pdcdi/Documents/Scala/Notes/poly.worksheet.sc:25:12: stale mdoc error:
+None of the overloaded alternatives of method replace in class String with types
+ (x$0: CharSequence, x$1: CharSequence): String
+ (x$0: Char, x$1: Char): String
+match arguments (("+ -" : String), ('-' : Char))
+      else termStrings.mkString(" + ").replace("+ -", '-')          
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: Notes\poly.worksheet.sc:25:55: unclosed string literal
+      else termStrings.mkString(" + ").replace("+ -", "-')          
+                                                      ^
+2022.08.14 12:26:49 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.14s
+[31merror[39m: Notes\poly.worksheet.sc:25:58: unclosed string literal
+      else termStrings.mkString(" + ").replace("+ -", "-"")          
+                                                         ^
+2022.08.14 12:26:51 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.23s
+2022.08.14 12:26:54 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.32s
+2022.08.14 12:27:02 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.31s
+[31merror[39m: Notes\poly.worksheet.sc:32:1: 
+value + is not a member of App.this.Polynom
+x + x
+^^^
+[31merror[39m: Notes\poly.worksheet.sc:33:1: 
+value + is not a member of App.this.Polynom
+x + x + z
+^^^
+2022.08.14 12:33:39 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.18s
+2022.08.14 12:33:42 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.91s
+[31merror[39m: Notes\poly.worksheet.sc:32:1: 
+value + is not a member of App.this.Polynom
+x + x
+^^^
+[31merror[39m: Notes\poly.worksheet.sc:33:1: 
+value + is not a member of App.this.Polynom
+x + x + z
+^^^
+2022.08.14 12:33:47 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.58s
+[31merror[39m: Notes\poly.worksheet.sc:36:1: 
+value + is not a member of App.this.Polynom
+x + x
+^^^
+[31merror[39m: Notes\poly.worksheet.sc:37:1: 
+value + is not a member of App.this.Polynom
+x + x + z
+^^^
+2022.08.14 12:33:52 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.58s
+Aug 14, 2022 12:33:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2576
+Aug 14, 2022 12:33:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2579
+Aug 14, 2022 12:33:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2581
+Aug 14, 2022 12:33:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2582
+Aug 14, 2022 12:33:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2584
+[31merror[39m: Notes\poly.worksheet.sc:36:1: 
+value + is not a member of App.this.Polynom
+x + x
+^^^
+[31merror[39m: Notes\poly.worksheet.sc:37:1: 
+value + is not a member of App.this.Polynom
+x + x + z
+^^^
+2022.08.14 12:34:05 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.37s
+Aug 14, 2022 12:34:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2619
+[31merror[39m: Notes\poly.worksheet.sc:36:1: 
+value + is not a member of App.this.Polynom
+x + x
+^^^
+[31merror[39m: Notes\poly.worksheet.sc:37:1: 
+value + is not a member of App.this.Polynom
+x + x + z
+^^^
+2022.08.14 12:34:14 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.51s
+[31merror[39m: Notes\poly.worksheet.sc:29:29: illegal start of simple expression
+    def + (other: Polynom) =
+                            ^
+2022.08.14 12:34:23 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.77s
+[31merror[39m: Notes\poly.worksheet.sc:30:7: 
+Ambiguous overload. The overloaded alternatives of method apply in object Polynom with types
+ (bindings: (Int, Double)*): App.this.Polynom
+ (nonZeroTerms: Map[Int, Double]): App.this.Polynom
+both match arguments (Nothing)
+      Polynom(other.terms.foldLeft(???)(addTerm))
+      ^^^^^^^
+2022.08.14 12:34:30 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.63s
+[31merror[39m: Notes\poly.worksheet.sc:30:7: 
+Ambiguous overload. The overloaded alternatives of method apply in object Polynom with types
+ (bindings: (Int, Double)*): App.this.Polynom
+ (nonZeroTerms: Map[Int, Double]): App.this.Polynom
+both match arguments (Nothing)
+      Polynom(other.terms.foldLeft(???)(addTerm))
+      ^^^^^^^
+2022.08.14 12:34:32 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.24s
+2022.08.14 12:35:27 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 2.73s
+2022.08.14 12:35:43 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.36s
+Aug 14, 2022 12:35:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2739
+Aug 14, 2022 12:35:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2742
+2022.08.14 12:35:49 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 2s
+Aug 14, 2022 12:35:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2759
+2022.08.14 12:35:54 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.21s
+2022.08.14 12:35:57 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.4s
+Aug 14, 2022 12:36:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2776
+Aug 14, 2022 12:36:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2780
+[31merror[39m: Notes\poly.worksheet.sc:33:64: illegal start of simple expression
+    def addTerm(terms: Map[Int, Double], term: (Int, Double)) = 
+                                                               ^
+Aug 14, 2022 12:36:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2791
+Aug 14, 2022 12:36:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2789
+2022.08.14 12:36:32 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 2.89s
+[31merror[39m: Notes\poly.worksheet.sc:34:12: = expected but outdent found
+      val()
+           ^
+2022.08.14 12:36:33 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.74s
+[31merror[39m: Notes\poly.worksheet.sc:34:14: = expected but outdent found
+      val (e)
+             ^
+2022.08.14 12:36:34 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.65s
+[31merror[39m: Notes\poly.worksheet.sc:30:43: 
+Found:    (Map[Int, Double], (Int, Double)) => Matchable
+Required: (Matchable, (Int, Double)) => Matchable
+      Polynom(other.terms.foldLeft(terms)(addTerm))
+                                          ^^^^^^^
+[31merror[39m: Notes\poly.worksheet.sc:30:7: 
+None of the overloaded alternatives of method apply in object Polynom with types
+ (bindings: (Int, Double)*): App.this.Polynom
+ (nonZeroTerms: Map[Int, Double]): App.this.Polynom
+match arguments (Matchable)
+      Polynom(other.terms.foldLeft(terms)(addTerm))
+      ^^^^^^^
+2022.08.14 12:36:39 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.77s
+[31merror[39m: Notes\poly.worksheet.sc:35:13: 
+expression expected but unindent found
+      terms + 
+            ^
+2022.08.14 12:36:53 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.08s
+Aug 14, 2022 12:36:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2861
+[31merror[39m: Notes\poly.worksheet.sc:35:23: 
+expression expected but ')' found
+      terms + (exp -> )
+                      ^
+[31merror[39m: Notes\poly.worksheet.sc:30:43: 
+Found:    (Map[Int, Double], (Int, Double)) => Map[Int, Matchable]
+Required: (Map[Int, Matchable], (Int, Double)) => Map[Int, Matchable]
+      Polynom(other.terms.foldLeft(terms)(addTerm))
+                                          ^^^^^^^
+[31merror[39m: Notes\poly.worksheet.sc:30:7: 
+None of the overloaded alternatives of method apply in object Polynom with types
+ (bindings: (Int, Double)*): App.this.Polynom
+ (nonZeroTerms: Map[Int, Double]): App.this.Polynom
+match arguments (Map[Int, Matchable])
+      Polynom(other.terms.foldLeft(terms)(addTerm))
+      ^^^^^^^
+2022.08.14 12:36:58 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.02s
+[31merror[39m: Notes\poly.worksheet.sc:30:43: 
+Found:    (Map[Int, Double], (Int, Double)) => Map[Int, Matchable]
+Required: (Map[Int, Matchable], (Int, Double)) => Map[Int, Matchable]
+      Polynom(other.terms.foldLeft(terms)(addTerm))
+                                          ^^^^^^^
+[31merror[39m: Notes\poly.worksheet.sc:30:7: 
+None of the overloaded alternatives of method apply in object Polynom with types
+ (bindings: (Int, Double)*): App.this.Polynom
+ (nonZeroTerms: Map[Int, Double]): App.this.Polynom
+match arguments (Map[Int, Matchable])
+      Polynom(other.terms.foldLeft(terms)(addTerm))
+      ^^^^^^^
+2022.08.14 12:37:02 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.15s
+Aug 14, 2022 12:37:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2914
+2022.08.14 12:37:06 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.67s
+[31merror[39m: Notes\poly.worksheet.sc:35:16: 
+value + is not a member of (Int, Double)
+      terms + (exp -> terms(exp) + coeff)
+               ^^^^^^^^^^^^^^^^^^^
+2022.08.14 12:37:10 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.99s
+Aug 14, 2022 12:42:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2946
+Aug 14, 2022 12:42:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2947
+2022.08.14 14:04:31 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\encoder.scala
+2022.08.14 14:04:52 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+2022.08.14 14:04:57 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+2022.08.14 14:04:58 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+2022.08.14 14:05:07 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+2022.08.14 14:05:10 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+2022.08.14 14:05:19 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+2022.08.14 14:05:23 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+Aug 14, 2022 2:05:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///C:/Users/pdcdi/Documents/Scala/Notes/coder.scala:3: error: unclosed character literal
+    '2' -> 'ABC',  '3' -> 'DEF', '4' -> 'GHI', '5' -> 'JKL', '6' -> 'MNO',
+               ^
+java.util.concurrent.CompletionException: file:///C:/Users/pdcdi/Documents/Scala/Notes/coder.scala:3: error: unclosed character literal
+    '2' -> 'ABC',  '3' -> 'DEF', '4' -> 'GHI', '5' -> 'JKL', '6' -> 'MNO',
+               ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: file:///C:/Users/pdcdi/Documents/Scala/Notes/coder.scala:3: error: unclosed character literal
+    '2' -> 'ABC',  '3' -> 'DEF', '4' -> 'GHI', '5' -> 'JKL', '6' -> 'MNO',
+               ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:439)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:444)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:368)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:282)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:269)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:202)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:202)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:197)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:34)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:30)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1508)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.08.14 14:05:39 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+Aug 14, 2022 2:05:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///C:/Users/pdcdi/Documents/Scala/Notes/coder.scala:3: error: unclosed character literal
+    '2' -> "ABC",  '3' -> 'DEF', '4' -> 'GHI', '5' -> 'JKL', '6' -> 'MNO',
+                              ^
+java.util.concurrent.CompletionException: file:///C:/Users/pdcdi/Documents/Scala/Notes/coder.scala:3: error: unclosed character literal
+    '2' -> "ABC",  '3' -> 'DEF', '4' -> 'GHI', '5' -> 'JKL', '6' -> 'MNO',
+                              ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: file:///C:/Users/pdcdi/Documents/Scala/Notes/coder.scala:3: error: unclosed character literal
+    '2' -> "ABC",  '3' -> 'DEF', '4' -> 'GHI', '5' -> 'JKL', '6' -> 'MNO',
+                              ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:439)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:444)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:368)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:282)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:269)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:202)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:202)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:197)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:34)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:30)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1508)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Aug 14, 2022 2:05:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///C:/Users/pdcdi/Documents/Scala/Notes/coder.scala:3: error: unclosed character literal
+    '2' -> "ABC",  '3' -> 'DEF', '4' -> 'GHI', '5' -> 'JKL', '6' -> 'MNO',
+                              ^
+java.util.concurrent.CompletionException: file:///C:/Users/pdcdi/Documents/Scala/Notes/coder.scala:3: error: unclosed character literal
+    '2' -> "ABC",  '3' -> 'DEF', '4' -> 'GHI', '5' -> 'JKL', '6' -> 'MNO',
+                              ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: file:///C:/Users/pdcdi/Documents/Scala/Notes/coder.scala:3: error: unclosed character literal
+    '2' -> "ABC",  '3' -> 'DEF', '4' -> 'GHI', '5' -> 'JKL', '6' -> 'MNO',
+                              ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:439)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:444)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:368)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:282)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:269)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:202)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:202)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:197)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:34)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:30)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1508)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.08.14 14:05:42 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+2022.08.14 14:05:43 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+Aug 14, 2022 2:05:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///C:/Users/pdcdi/Documents/Scala/Notes/coder.scala:3: error: unclosed character literal
+    '2' -> "ABC",  '3' -> "DEF", '4' -> 'GHI', '5' -> 'JKL', '6' -> 'MNO',
+                                            ^
+java.util.concurrent.CompletionException: file:///C:/Users/pdcdi/Documents/Scala/Notes/coder.scala:3: error: unclosed character literal
+    '2' -> "ABC",  '3' -> "DEF", '4' -> 'GHI', '5' -> 'JKL', '6' -> 'MNO',
+                                            ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: file:///C:/Users/pdcdi/Documents/Scala/Notes/coder.scala:3: error: unclosed character literal
+    '2' -> "ABC",  '3' -> "DEF", '4' -> 'GHI', '5' -> 'JKL', '6' -> 'MNO',
+                                            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:439)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:444)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:368)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:282)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:269)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:202)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:202)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:197)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:34)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:30)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1508)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.08.14 14:05:46 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+2022.08.14 14:05:48 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+Aug 14, 2022 2:05:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///C:/Users/pdcdi/Documents/Scala/Notes/coder.scala:3: error: unclosed character literal
+    '2' -> "ABC",  '3' -> "DEF", '4' -> "GHI", '5' -> 'JKL', '6' -> 'MNO',
+                                                          ^
+java.util.concurrent.CompletionException: file:///C:/Users/pdcdi/Documents/Scala/Notes/coder.scala:3: error: unclosed character literal
+    '2' -> "ABC",  '3' -> "DEF", '4' -> "GHI", '5' -> 'JKL', '6' -> 'MNO',
+                                                          ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: file:///C:/Users/pdcdi/Documents/Scala/Notes/coder.scala:3: error: unclosed character literal
+    '2' -> "ABC",  '3' -> "DEF", '4' -> "GHI", '5' -> 'JKL', '6' -> 'MNO',
+                                                          ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:439)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:444)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:368)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:282)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:269)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:202)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:202)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:197)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:34)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:30)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1508)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.08.14 14:05:57 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+2022.08.14 14:05:58 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+Aug 14, 2022 2:05:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///C:/Users/pdcdi/Documents/Scala/Notes/coder.scala:3: error: unclosed character literal
+    '2' -> "ABC",  '3' -> "DEF", '4' -> "GHI", '5' -> "JKL", '6' -> 'MNO',
+                                                                        ^
+java.util.concurrent.CompletionException: file:///C:/Users/pdcdi/Documents/Scala/Notes/coder.scala:3: error: unclosed character literal
+    '2' -> "ABC",  '3' -> "DEF", '4' -> "GHI", '5' -> "JKL", '6' -> 'MNO',
+                                                                        ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: file:///C:/Users/pdcdi/Documents/Scala/Notes/coder.scala:3: error: unclosed character literal
+    '2' -> "ABC",  '3' -> "DEF", '4' -> "GHI", '5' -> "JKL", '6' -> 'MNO',
+                                                                        ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:439)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:444)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:368)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:282)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:269)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:202)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:202)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:197)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:34)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:30)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1508)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.08.14 14:06:02 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+2022.08.14 14:06:04 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+2022.08.14 14:06:05 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+2022.08.14 14:06:08 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+Aug 14, 2022 2:06:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///C:/Users/pdcdi/Documents/Scala/Notes/coder.scala:4: error: unclosed character literal
+    '7' -> 'PQRS', '8' -> 'TUV", '9' -> "WXYZ")
+                ^
+java.util.concurrent.CompletionException: file:///C:/Users/pdcdi/Documents/Scala/Notes/coder.scala:4: error: unclosed character literal
+    '7' -> 'PQRS', '8' -> 'TUV", '9' -> "WXYZ")
+                ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: file:///C:/Users/pdcdi/Documents/Scala/Notes/coder.scala:4: error: unclosed character literal
+    '7' -> 'PQRS', '8' -> 'TUV", '9' -> "WXYZ")
+                ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:439)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:444)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:368)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:282)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:269)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:202)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:202)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:197)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:34)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:30)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1508)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.08.14 14:06:11 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+Aug 14, 2022 2:06:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///C:/Users/pdcdi/Documents/Scala/Notes/coder.scala:4: error: unclosed character literal
+    '7' -> 'PQRS', '8' -> "TUV", '9' -> "WXYZ")
+                ^
+java.util.concurrent.CompletionException: file:///C:/Users/pdcdi/Documents/Scala/Notes/coder.scala:4: error: unclosed character literal
+    '7' -> 'PQRS', '8' -> "TUV", '9' -> "WXYZ")
+                ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: file:///C:/Users/pdcdi/Documents/Scala/Notes/coder.scala:4: error: unclosed character literal
+    '7' -> 'PQRS', '8' -> "TUV", '9' -> "WXYZ")
+                ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:439)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:444)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:368)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:282)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:269)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:202)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:202)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:197)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:34)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:30)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1508)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.08.14 14:06:13 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+Aug 14, 2022 2:06:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3192
+2022.08.14 14:06:16 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+2022.08.14 14:06:19 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+Exception in thread "pool-9-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.08.14 14:06:30 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+2022.08.14 14:07:10 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+2022.08.14 14:07:13 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+2022.08.14 14:08:21 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+2022.08.14 14:08:24 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+2022.08.14 14:08:29 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+2022.08.14 14:08:31 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+2022.08.14 14:08:36 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+2022.08.14 14:08:38 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+2022.08.14 14:08:39 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+2022.08.14 14:09:40 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+2022.08.14 14:09:59 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+2022.08.14 14:10:05 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+2022.08.14 14:10:31 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+[31merror[39m: Notes\poly.worksheet.sc:35:16: 
+Found:    (exp : Int)
+Required: (Int, Double)
+      terms + (exp, terms(exp) + coeff)
+               ^^^
+[31merror[39m: Notes\poly.worksheet.sc:35:21: 
+Found:    Double
+Required: (Int, Double)
+      terms + (exp, terms(exp) + coeff)
+                    ^^^^^^^^^^^^^^^^^^
+2022.08.14 14:13:30 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 2.25s
+[31merror[39m: Notes\poly.worksheet.sc:35:16: 
+Found:    (exp : Int)
+Required: (Int, Double)
+      terms + (exp, terms(exp))
+               ^^^
+[31merror[39m: Notes\poly.worksheet.sc:35:21: 
+Found:    Double
+Required: (Int, Double)
+      terms + (exp, terms(exp))
+                    ^^^^^^^^^^
+2022.08.14 14:13:45 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.73s
+Aug 14, 2022 2:13:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3452
+[31merror[39m: Notes\poly.worksheet.sc:35:13: 
+expression expected but unindent found
+      terms + 
+            ^
+2022.08.14 14:14:06 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.49s
+[31merror[39m: Notes\poly.worksheet.sc:35:16: 
+value + is not a member of (Int, Double)
+      terms + (exp -> terms(exp) + coeff)
+               ^^^^^^^^^^^^^^^^^^^
+2022.08.14 14:14:14 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.3s
+2022.08.14 14:14:30 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+2022.08.14 14:14:33 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+2022.08.14 14:14:56 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+2022.08.14 14:15:20 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+2022.08.14 14:15:35 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+Exception in thread "pool-9-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[31merror[39m: Notes\poly.worksheet.sc:32:1: 
+value + is not a member of App.this.Polynom
+x + x
+^^^
+[31merror[39m: Notes\poly.worksheet.sc:33:1: 
+value + is not a member of App.this.Polynom
+x + x + z
+^^^
+2022.08.14 14:36:43 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 2.35s
+[31merror[39m: Notes\poly.worksheet.sc:35:1: 
+value + is not a member of App.this.Polynom
+x + x
+^^^
+[31merror[39m: Notes\poly.worksheet.sc:36:1: 
+value + is not a member of App.this.Polynom
+x + x + z
+^^^
+2022.08.14 14:36:47 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.43s
+[31merror[39m: Notes\poly.worksheet.sc:24:16: 
+value + is not a member of (Int, Double)
+      terms + (exp -> terms(exp) + coeff)
+               ^^^^^^^^^^^^^^^^^^^
+2022.08.14 14:36:50 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.2s
+[31merror[39m: Notes\poly.worksheet.sc:24:16: 
+value + is not a member of (Int, Double)
+      terms + (exp -> terms(exp) + coeff)
+               ^^^^^^^^^^^^^^^^^^^
+2022.08.14 14:36:53 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.38s
+[31merror[39m: Notes\poly.worksheet.sc:24:16: 
+value + is not a member of (Int, Double)
+      terms + (exp -> terms(exp) + coeff)
+               ^^^^^^^^^^^^^^^^^^^
+2022.08.14 14:36:57 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.51s
+[31merror[39m: Notes\poly.worksheet.sc:24:16: 
+value + is not a member of (Int, Double)
+      terms + (exp -> terms(exp) + coeff)
+               ^^^^^^^^^^^^^^^^^^^
+2022.08.14 14:38:06 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.46s
+[31merror[39m: Notes\poly.worksheet.sc:27:5: ) expected but override found
+    override def toString = 
+    ^^^^^^^^
+2022.08.14 14:39:05 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 2.74s
+2022.08.14 14:39:08 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 2.22s
+Aug 14, 2022 2:40:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3792
+Aug 14, 2022 2:40:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3793
+Aug 14, 2022 2:40:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3794
+Aug 14, 2022 2:40:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3797
+[31merror[39m: Notes\poly.worksheet.sc:24:16: 
+Found:    (exp : Int)
+Required: (Int, Double)
+      terms + (exp, (terms(exp) + coeff))
+               ^^^
+[31merror[39m: Notes\poly.worksheet.sc:24:22: 
+Found:    Double
+Required: (Int, Double)
+      terms + (exp, (terms(exp) + coeff))
+                     ^^^^^^^^^^^^^^^^^^
+2022.08.14 14:40:40 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 2.02s
+Aug 14, 2022 2:40:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3805
+2022.08.14 14:40:52 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.73s
+2022.08.14 14:42:42 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\Hello.scala
+2022.08.14 14:42:49 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+Aug 14, 2022 2:42:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3847
+Aug 14, 2022 2:43:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3902
+2022.08.14 14:43:11 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+2022.08.14 14:43:13 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+2022.08.14 14:43:16 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+2022.08.14 14:43:54 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+2022.08.14 14:46:30 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+2022.08.14 14:48:35 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\Notes\coder.scala
+[31merror[39m: Notes\poly.worksheet.sc:24:16: 
+Found:    (exp : Int)
+Required: (Int, Double)
+      terms + (exp, (terms(exp) + coeff))
+               ^^^
+[31merror[39m: Notes\poly.worksheet.sc:24:22: 
+Found:    Double
+Required: (Int, Double)
+      terms + (exp, (terms(exp) + coeff))
+                     ^^^^^^^^^^^^^^^^^^
+2022.08.14 15:30:07 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.62s
+Aug 14, 2022 3:30:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4059
+2022.08.14 15:30:19 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.23s
+[31merror[39m: Notes\poly.worksheet.sc:27:5: ) expected but override found
+    override def toString = 
+    ^^^^^^^^
+2022.08.14 15:30:39 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.65s
+[31merror[39m: Notes\poly.worksheet.sc:24:16: 
+Found:    (exp : Int)
+Required: (Int, Double)
+      terms + (exp , terms(exp) + coeff)
+               ^^^
+[31merror[39m: Notes\poly.worksheet.sc:24:22: 
+Found:    Double
+Required: (Int, Double)
+      terms + (exp , terms(exp) + coeff)
+                     ^^^^^^^^^^^^^^^^^^
+2022.08.14 15:30:44 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.16s
+[31merror[39m: Notes\poly.worksheet.sc:24:16: 
+Found:    (exp : Int)
+Required: (Int, Double)
+      terms + (exp, terms(exp) + coeff)
+               ^^^
+[31merror[39m: Notes\poly.worksheet.sc:24:21: 
+Found:    Double
+Required: (Int, Double)
+      terms + (exp, terms(exp) + coeff)
+                    ^^^^^^^^^^^^^^^^^^
+2022.08.14 15:30:44 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.22s
+[31merror[39m: Notes\poly.worksheet.sc:24:16: 
+value + is not a member of (Int, Double)
+      terms + (exp ->terms(exp) + coeff)
+               ^^^^^^^^^^^^^^^^^^
+2022.08.14 15:31:07 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.78s
+[31merror[39m: Notes\poly.worksheet.sc:27:5: ) expected but override found
+    override def toString = 
+    ^^^^^^^^
+2022.08.14 15:31:09 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.44s
+2022.08.14 15:31:12 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.65s
+Aug 14, 2022 3:32:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4206
+2022.08.14 15:32:36 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 3.62s
+2022.08.14 15:32:44 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 2.17s
+2022.08.14 15:32:45 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.78s
+Aug 14, 2022 3:32:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4271
+2022.08.14 15:32:50 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.87s
+2022.08.14 15:32:54 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 2.04s
+2022.08.14 15:32:55 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.54s
+2022.08.14 15:33:01 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.93s
+2022.08.14 15:33:03 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 2.79s
+2022.08.14 15:33:06 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.2s
+2022.08.14 15:33:52 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.07s
+2022.08.14 15:33:57 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.42s
+2022.08.14 15:36:24 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 2.4s
+2022.08.14 15:36:29 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.44s
+2022.08.14 15:36:32 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.28s
+Aug 14, 2022 3:36:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4439
+Aug 14, 2022 3:36:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4440
+Aug 14, 2022 3:36:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4442
+2022.08.14 15:36:35 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 2.48s
+2022.08.14 15:36:40 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.3s
+Aug 14, 2022 4:19:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4460
+2022.08.14 16:23:53 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 3s
+2022.08.14 16:23:57 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.39s
+2022.08.14 16:23:59 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.9s
+2022.08.14 16:24:01 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.47s
+2022.08.14 16:24:01 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.59s
+2022.08.14 16:24:06 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.5s
+2022.08.14 16:24:15 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.43s
+2022.08.14 16:24:22 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.31s
+2022.08.14 16:24:31 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.25s
+2022.08.14 16:24:33 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.34s
+Aug 14, 2022 4:24:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4635
+2022.08.14 16:24:53 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.6s
+2022.08.14 16:24:55 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.25s
+2022.08.14 16:25:06 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.48s
+2022.08.14 16:25:09 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.28s
+2022.08.14 16:25:15 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.62s
+2022.08.14 16:25:21 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.79s
+Aug 14, 2022 4:25:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4729
+Aug 14, 2022 4:25:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4741
+2022.08.14 16:25:47 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 5.08s
+2022.08.14 16:25:49 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 1.17s
+2022.08.14 16:25:51 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 2.34s
+2022.08.14 16:25:51 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.78s
+2022.08.14 16:25:53 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.32s
+2022.08.14 16:26:02 INFO  time: evaluated worksheet 'poly.worksheet.sc' in 0.59s
+2022.08.14 16:27:17 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.14 16:27:17 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\AnagramsInterface.scala
+2022.08.14 16:27:19 INFO  time: code lens generation in 1.25s
+2022.08.14 16:27:19 INFO  time: code lens generation in 1.86s
+2022.08.14 16:27:20 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.14 16:27:21 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\AnagramsInterface.scala
+2022.08.14 16:27:24 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.14 19:59:25 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.14 20:03:03 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+Aug 14, 2022 8:03:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4856
+2022.08.14 20:03:08 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.14 20:03:14 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.14 21:02:27 INFO  time: code lens generation in 1.06s
+2022.08.14 21:37:33 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.14 21:37:34 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.14 21:37:36 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.14 21:39:23 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+Aug 14, 2022 9:39:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4974
+2022.08.14 21:39:32 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.14 21:39:34 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.14 21:39:38 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.14 21:58:38 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.14 21:58:39 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.14 21:59:45 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.14 21:59:50 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.14 21:59:54 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+Aug 14, 2022 9:59:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5110
+2022.08.14 22:00:00 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.14 22:00:26 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.14 22:00:32 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.14 22:00:36 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.14 22:00:39 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.14 22:00:42 INFO  time: code lens generation in 1.16s
+Aug 14, 2022 10:00:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5223
+Aug 14, 2022 10:00:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5224
+Aug 14, 2022 10:00:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5230
+Aug 14, 2022 10:00:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5231
+Aug 14, 2022 10:00:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5233
+2022.08.14 22:00:45 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.14 22:12:59 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.14 22:13:01 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.15 00:22:04 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.15 00:22:40 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.15 00:22:41 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+Aug 15, 2022 12:22:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5345
+Aug 15, 2022 12:22:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5346
+Aug 15, 2022 12:22:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5350
+2022.08.15 00:22:46 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.15 00:22:56 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.15 00:22:57 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.15 00:23:01 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.15 00:23:03 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.15 00:23:06 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+Aug 15, 2022 12:23:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5432
+2022.08.15 00:23:14 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.15 00:23:39 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.15 00:24:04 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.15 00:24:32 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.15 00:24:49 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.15 00:24:49 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.15 00:24:55 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.15 00:57:52 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.15 00:58:41 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.15 00:59:37 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.15 00:59:42 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.15 00:59:45 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.15 00:59:48 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.15 00:59:53 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.15 01:00:23 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+Aug 15, 2022 1:00:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5715
+Aug 15, 2022 1:00:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5716
+Aug 15, 2022 1:00:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5717
+Aug 15, 2022 1:00:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5720
+2022.08.15 01:00:23 INFO  time: code lens generation in 1.28s
+2022.08.15 01:00:23 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.15 01:01:06 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+Aug 15, 2022 1:15:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5753
+2022.08.15 10:39:04 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.15 10:39:15 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+Aug 15, 2022 10:39:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5820
+2022.08.15 10:39:18 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+Aug 15, 2022 10:39:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5824
+2022.08.15 10:39:22 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.15 10:39:28 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.15 10:39:30 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.15 10:39:32 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.15 10:39:33 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.15 10:39:35 WARN  no build target for: C:\Users\pdcdi\Documents\Scala\forcomp\src\main\scala\forcomp\Anagrams.scala
+2022.08.15 10:46:23 INFO  shutting down Metals

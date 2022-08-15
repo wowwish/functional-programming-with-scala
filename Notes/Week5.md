@@ -460,7 +460,7 @@ def sum(xs: List[Int])     = (0 :: xs).reduceLeft(_ + _)
 def product(xs: List[Int]) = (1 :: xs).reduceLeft(_ * _)
 ```
 
-The function `reduceLeft` is defined in terms of a more general function, `foldLeft`. `foldLeft` is just like `reduceLeft`, but it takes an `accumulator` (`z`), as an additional parameter, which is returned when `foldLeft` is called on an empty list.
+The function `reduceLeft` is defined in terms of a more general function, `foldLeft`. `foldLeft` is just like `reduceLeft`, but it takes an `accumulator` (`z`), as an additional parameter, which is returned when `foldLeft` is called on an empty list/collection.
 
                 List(x1, ..., xn).foldLeft(z)(op) = z.op(x1).op ... .op(xn)
 
