@@ -15,10 +15,12 @@ class Polynom(nonZeroTerms: Map[Int, Double]):
 
 
     // EXERCISE - Implementation of '+' function using 'foldLeft'
+    // 
     def + (other: Polynom) =
       Polynom(other.terms.foldLeft(terms)(addTerm))
     
     // defining the operator used in 'foldLeft' to combine
+    // List(x1, ..., xn).foldLeft(z)(op) = z.op(x1).op ... .op(xn)
     def addTerm(terms: Map[Int, Double], term: (Int, Double)): Map[Int, Double] = 
       val (exp, coeff) = term
       terms + (exp -> (terms(exp) + coeff))   // update the Map 'terms' with the key/value pair (exp, terms(exp) + coeff)

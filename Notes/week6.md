@@ -523,7 +523,7 @@ It's quite inconvenient to have to write
 ```
 Polynom(Map(1 -> 2.0, 3 -> 4.0, 5 -> 6.2))
 ```
-Can one do without the `MAp(...)` ?
+Can one do without the `Map(...)` ?
 `Problem:` The number of `key -> value` pairs passed to _Map_ can vary.
 
 We can accomodate this pattern using a `repeated parameter`
